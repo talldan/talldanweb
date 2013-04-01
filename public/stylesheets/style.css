@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  background: url(../images/bg.png);
+}
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body > header {
+  background: #333333;
+  padding: 2px 20px;
+}
+body > header h1 {
+  color: #ff9900;
+  margin: 5px 0;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: 'Lobster';
+}
+body > header h1 em {
+  color: #3399cc;
+  font-style: normal;
+}
+section.tdSelectGrid {
+  margin: 2% 0 0 2%;
+}
+section.tdSelectGrid img {
+  width: 30%;
+  margin: 1%;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+  -moz-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+  -o-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+  -ms-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+  -k-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+  box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+}
+section.tdSelectGrid img.selected,
+section.tdSelectGrid img:hover {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -k-transform: scale(1.15);
+  transform: scale(1.15);
+}

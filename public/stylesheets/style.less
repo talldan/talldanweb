@@ -1,0 +1,89 @@
+// colours
+@tdGrey: #333333;
+@tdOrange: #FF9900;
+@tdBlue: #3399CC;
+
+.Transform(@params)
+{
+	-webkit-transform: @params;
+	-moz-transform: @params;
+	-o-transform: @params;
+	-ms-transform: @params;
+	-k-transform: @params;
+	transform: @params;
+}
+
+.Transition(@params)
+{
+	-webkit-transition:@params;
+	-moz-transition:@params;
+	-o-transition:@params;
+	-ms-transition:@params;
+	-k-transition:@params;
+	transition:@params;
+}
+
+.BoxShadow(@params)
+{
+	-webkit-box-shadow: @params;
+	-moz-box-shadow: @params;
+	-o-box-shadow: @params;
+	-ms-box-shadow: @params;
+	-k-box-shadow: @params;
+	box-shadow: @params;
+}
+
+.BorderRadius(@params)
+{
+	-webkit-border-radius:@params;
+	-moz-border-radius:@params;
+	-o-border-radius:@params;
+	-ms-border-radius:@params;
+	-k-border-radius:@params;
+	border-radius:@params;
+}
+
+html {
+	height: 100%;
+	background: url(../images/bg.png);
+}
+
+body {
+	margin: 0;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body > header {
+	background: @tdGrey;
+	padding: 2px 20px;
+
+	h1 {
+		color: @tdOrange;
+		margin: 5px 0;
+		font-size: 24px;
+		line-height: 40px;
+		font-family: 'Lobster';
+	}
+
+	h1 em {
+		color: @tdBlue;
+		font-style: normal;
+	}
+}
+
+section.tdSelectGrid {
+	margin: 2% 0 0 2%;
+	img {
+		width: 30%;
+		margin: 1%;
+		cursor: pointer;
+		.BoxShadow(2px 2px 2px rgba(10, 10, 10, 0.3));
+
+		&.selected,
+		&:hover {
+			.Transform(scale(1.15));
+		}
+
+	}
+
+}
