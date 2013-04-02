@@ -1,17 +1,12 @@
-html {
-  height: 100%;
-}
 body {
-  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 body > header {
   background: #333333;
-  padding: 2px 20px;
+  margin: 0 0 3em 0;
 }
 body > header h1 {
   color: #ff9900;
-  margin: 5px 0;
   font-size: 24px;
   line-height: 40px;
   font-family: 'Lobster';
@@ -20,12 +15,7 @@ body > header h1 em {
   color: #3399cc;
   font-style: normal;
 }
-section.tdSelectGrid {
-  margin: 2% 0 0 2%;
-}
 section.tdSelectGrid img {
-  width: 30%;
-  margin: 1%;
   cursor: pointer;
   -webkit-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
   -moz-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);

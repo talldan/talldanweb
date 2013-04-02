@@ -2,28 +2,34 @@
 <html>
   <head>
     <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/base.css' media="all" />
+    <link rel='stylesheet' href='/stylesheets/720_grid.css' media="screen and (min-width: 720px)" />
+    <link rel='stylesheet' href='/stylesheets/986_grid.css'  media="screen and (min-width: 986px)" />
+    <link rel='stylesheet' href='/stylesheets/1236_grid.css'  media="screen and (min-width: 1236px)" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   </head>
   <body>
 	<header>
-		<h1>Welcome to <em>{{ title }}</em></h1>
+		<h1 class='grid'>Welcome to <em>{{ title }}</em></h1>
 	</header>
-	<!--<h2>Projects:</h2>-->
-	<section class='tdSelectGrid'>
+	<div class='grid'>
+		<!--<h2>Projects:</h2>-->
+		<section class='tdSelectGrid row'>
+				{{#projects}}
+					<img id='{{ name }}' class='tdSelectSource {{ cssThumbnailClass }}' src='images/{{ mainImage }}' alt='{{ description }}' />
+				{{/projects}}
+		</section>
+		<section class='tdSelectPreview row'>
 			{{#projects}}
-				<img id='{{ name }}' class='tdSelectSource' src='images/{{ mainImage }}' alt='{{ description }}' />
+				<article  id='{{ name }}-target' class='tdSelectTarget slot-0-1-2-3-4-5'>
+					<header>
+						<h1>{{title}}</h1>
+					</header>
+					<p>{{description}}</p>
+				</article>
 			{{/projects}}
-	</section>
-	<section class='tdSelectPreview'>
-		{{#projects}}
-			<article  id='{{ name }}-target' class='tdSelectTarget'>
-				<header>
-					<h1>{{title}}</h1>
-				</header>
-				<p>{{description}}</p>
-			</article>
-		{{/projects}}
-	</section>
+		</section>
+	</div>
   </body>
 </html>
