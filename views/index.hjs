@@ -12,10 +12,18 @@
 	<!--<h2>Projects:</h2>-->
 	<section class='tdSelectGrid'>
 			{{#projects}}
-				<img class='{{ name }}' src='images/{{ mainImage }}' alt='{{ description }}' />
+				<img id='{{ name }}' class='tdSelectSource' src='images/{{ mainImage }}' alt='{{ description }}' />
 			{{/projects}}
 	</section>
 	<section class='tdSelectPreview'>
+		{{#projects}}
+			<article  id='{{ name }}-target' class='tdSelectTarget'>
+				<header>
+					<h1>{{title}}</h1>
+				</header>
+				<p>{{description}}</p>
+			</article>
+		{{/projects}}
 	</section>
   </body>
 </html>
