@@ -1,9 +1,12 @@
-define(['sizzle', 'underscore'], function(Sizzle, _){
+define(['jquery', 'underscore'], function($, _){
 	return {
 		'initialise': function() {
-			var selectedElements = Sizzle('.tdSelectMenu');
-			_.each(selectedElements, function(element) {
-				
+			$('.tdSelectMenu .tdSelectSource').click(function() {
+				var targetSelector = $(this).attr('data-target');
+				$('.tdSelectTarget')
+					.removeClass('tdSelected');
+				$(targetSelector)
+					.addClass('tdSelected');
 			});
 		}
 	};

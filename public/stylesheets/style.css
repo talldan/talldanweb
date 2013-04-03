@@ -15,7 +15,7 @@ body > header h1 em {
   color: #3399cc;
   font-style: normal;
 }
-section.tdSelectGrid img {
+section.tdSelectMenu img {
   cursor: pointer;
   -webkit-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
   -moz-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
@@ -24,12 +24,34 @@ section.tdSelectGrid img {
   -k-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
   box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
 }
-section.tdSelectGrid img.selected,
-section.tdSelectGrid img:hover {
+section.tdSelectMenu img.selected,
+section.tdSelectMenu img:hover {
   -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
   -o-transform: scale(1.15);
   -ms-transform: scale(1.15);
   -k-transform: scale(1.15);
   transform: scale(1.15);
+}
+section.tdSelectPreview {
+  position: relative;
+}
+section.tdSelectPreview .tdSelectTarget {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+section.tdSelectPreview .tdSelectTarget article {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -k-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  visibility: hidden;
+}
+section.tdSelectPreview .tdSelectTarget.tdSelected article {
+  opacity: 1;
+  visibility: visible;
 }

@@ -8,6 +8,15 @@
     <link rel='stylesheet' href='/stylesheets/1236_grid.css'  media="screen and (min-width: 1236px)" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script>
+		// require js config
+		var require = {
+			shim: {
+				'underscore': { exports: '_' }
+			}
+		};
+	</script>
+	<script data-main="/javascripts/index" src="/javascripts/require.js"></script>
   </head>
   <body>
 	<header>
@@ -15,16 +24,16 @@
 	</header>
 	<div class='grid'>
 		<!--<h2>Projects:</h2>-->
-		<section class='tdSelectGrid row'>
+		<section class='tdSelectMenu row'>
 				{{#projects}}
-					<img id='{{ name }}' class='tdSelectSource {{ cssThumbnailClass }}' src='images/{{ mainImage }}' alt='{{ description }}' />
+					<img data-target='#{{ name }}-target' class='tdSelectSource {{ cssThumbnailClass }}' src='images/{{ mainImage }}' alt='{{ description }}' />
 				{{/projects}}
 		</section>
 		<section class='tdSelectPreview'>
 			{{#projects}}
-				<div class='row'>
+				<div id='{{ name }}-target'  class='tdSelectTarget row'>
 					<div class='slot-0' style='height:1px;'></div>
-					<article  id='{{ name }}-target' class='tdSelectTarget slot-1-2-3-4'>
+					<article class='slot-1-2-3-4'>
 						<header>
 							<h1>{{ title }}</h1>
 						</header>
