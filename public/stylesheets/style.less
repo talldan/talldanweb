@@ -1,4 +1,5 @@
 // colours
+@tdTranGrey: rgba(10, 10, 10, 0.7);
 @tdGrey: #333333;
 @tdOrange: #FF9900;
 @tdBlue: #3399CC;
@@ -44,8 +45,8 @@
 }
 
 html {
-	//height: 100%;
-	//background: url(../images/bg.png);
+	min-height: 100%;
+	background: url(../images/bg.png);
 }
 
 body {
@@ -55,12 +56,13 @@ body {
 
 body > header {
 	background: @tdGrey;
+	background: @tdTranGrey;
 	margin: 0 0 3em 0;
 
 	h1 {
 		color: @tdOrange;
-		font-size: 24px;
-		line-height: 40px;
+		font-size: 2em;
+		line-height: 2em;
 		font-family: 'Lobster';
 	}
 
