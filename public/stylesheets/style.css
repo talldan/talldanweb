@@ -1,62 +1,80 @@
 html {
   min-height: 100%;
-  background: url(../images/bg.png);
+  background: #333;
 }
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 body > header {
   background: #333333;
-  background: rgba(10, 10, 10, 0.7);
-  margin: 0 0 3em 0;
+  background: -moz-linear-gradient(top, #333333 0%, #3f4954 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #3f4954));
+  background: -webkit-linear-gradient(top, #333333 0%, #3f4954 100%);
+  background: -o-linear-gradient(top, #333333 0%, #3f4954 100%);
+  background: -ms-linear-gradient(top, #333333 0%, #3f4954 100%);
+  background: linear-gradient(to bottom, #333333 0%, #3f4954 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#3f4954', GradientType=0);
+  margin: 0;
+  position: relative;
+  -webkit-box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
+  -moz-box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
+  -o-box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
+  -ms-box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
+  -k-box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
+  box-shadow: 0px 3px 2px rgba(10, 10, 10, 0.6);
 }
 body > header h1 {
   color: #ff9900;
-  font-size: 2em;
-  line-height: 2em;
+  font-size: 2.6em;
+  line-height: 1.6em;
   font-family: 'Lobster';
+  text-shadow: 3px 3px 2px rgba(10, 10, 10, 0.6);
 }
 body > header h1 em {
   color: #3399cc;
   font-style: normal;
 }
-section.tdSelectMenu img {
-  cursor: pointer;
-  -webkit-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
-  -moz-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
-  -o-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
-  -ms-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
-  -k-box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
-  box-shadow: 2px 2px 2px rgba(10, 10, 10, 0.3);
+body > nav {
+  background-color: #3399CC;
+  padding: 3px 0 0 0;
+  line-height: 2.3em;
+  font-size: 1.1em;
+  font-family: 'Cabin', sans-serif;
+  margin: 0 0 1.75em 0;
+  border-bottom: 2px solid #27A;
 }
-section.tdSelectMenu img.selected,
-section.tdSelectMenu img:hover {
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -k-transform: scale(1.15);
-  transform: scale(1.15);
+body > nav ul {
+  text-align: center;
+  margin: 0;
 }
-section.tdSelectPreview {
-  position: relative;
+body > nav li {
+  display: inline;
+  padding: 0 28px;
 }
-section.tdSelectPreview .tdSelectTarget {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+section#projects {
+  font-size: 1em;
 }
-section.tdSelectPreview .tdSelectTarget article {
-  opacity: 0;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -k-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
-  visibility: hidden;
+section#projects dl {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  padding: 1.2em;
 }
-section.tdSelectPreview .tdSelectTarget.tdSelected article {
-  opacity: 1;
-  visibility: visible;
+section#projects dl dt {
+  font-weight: bold;
+}
+section#projects dl dd {
+  margin: 0 0 0.4em 0;
+}
+section#projects p {
+  line-height: 1.8em;
+}
+section#projects .playr {
+  color: #DDD;
+}
+section#projects .playr dl {
+  background: #f90;
+  color: #222;
+}
+section#projects .playr img.main-image {
+  margin: 2em 0;
 }

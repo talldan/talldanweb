@@ -5,10 +5,10 @@
     <link rel='stylesheet' href='/stylesheets/base.css' media="all" />
     <link rel='stylesheet' href='/stylesheets/720_grid.css' media="screen and (min-width: 720px)" />
     <link rel='stylesheet' href='/stylesheets/986_grid.css'  media="screen and (min-width: 986px)" />
-    <link rel='stylesheet' href='/stylesheets/1236_grid.css'  media="screen and (min-width: 1236px)" />
+    <!--<link rel='stylesheet' href='/stylesheets/1236_grid.css'  media="screen and (min-width: 1236px)" />-->
     <link rel='stylesheet' href='/stylesheets/style.css' />
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<script>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Cabin' rel='stylesheet' type='text/css'>
+	<!--<script>
 		// require js config
 		var require = {
 			shim: {
@@ -16,33 +16,63 @@
 			}
 		};
 	</script>
-	<script data-main="/javascripts/index" src="/javascripts/require.js"></script>
+	<script data-main="/javascripts/index" src="/javascripts/require.js"></script>-->
   </head>
   <body>
+	<!-- TODO: Move header and nav into a partial -->
 	<header>
 		<h1 class='grid'>Welcome to <em>{{ title }}</em></h1>
 	</header>
-	<div class='grid'>
-		<!--<h2>Projects:</h2>-->
-		<section class='tdSelectMenu row'>
-				{{#projects}}
-					<img data-target='#{{ name }}-target' class='tdSelectSource {{ cssThumbnailClass }}' src='images/{{ mainImage }}' alt='{{ description }}' />
-				{{/projects}}
-		</section>
-		<section class='tdSelectPreview'>
-			{{#projects}}
-				<div id='{{ name }}-target'  class='tdSelectTarget row'>
-					<div class='slot-0' style='height:1px;'></div>
-					<article class='slot-1-2-3-4'>
-						<header>
-							<h1>{{ title }}</h1>
-						</header>
-						<p>{{ description }}</p>
-					</article>
-					<div class='slot-5' style='height:1px;'></div>
-				</div>
-			{{/projects}}
-		</section>
-	</div>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Portfolio</li>
+			<li>About Me</li>
+		</ul>
+	</nav>
+	<section id='projects'>
+		{{#projects}}
+		<article class='grid {{ sectionClassNames }}'>
+			{{#rows}}
+			<div class='row'>
+				{{#content}}
+
+					{{#type.h1}}
+						<h1 class='{{ classNames }}'>{{ text }}</h1>
+					{{/type.h1}}
+
+					{{#type.h2}}
+						<h2 class='{{ classNames }}'>{{ text }}</h2>
+					{{/type.h2}}
+
+					{{#type.h3}}
+						<h3 class='{{ classNames }}'>{{ text }}</h3>
+					{{/type.h3}}
+
+					{{#type.paragraph}}
+						<p class='{{ classNames }}'>{{ text }}</p>
+					{{/type.paragraph}}
+
+					{{#type.image}}
+						 <img class='{{ classNames }}' src='images/{{ src }}' alt='{{ description }}' title='{{ description }}' />
+					{{/type.image}}
+
+					{{#type.definitionList}}
+						<aside class='{{ classNames }}'>
+							<dl>
+								{{#list}}
+								<dt>{{ term }}</dt>
+								<dd>{{ definition }}</dd>
+								{{/list}}
+							</dl>
+						</aside>
+					{{/type.definitionList}}
+
+				{{/content}}
+			</div>
+			{{/rows}}
+		</article>
+		{{/projects}}
+	</section>
   </body>
 </html>

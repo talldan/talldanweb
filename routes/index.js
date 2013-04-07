@@ -3,13 +3,13 @@
  * GET home page.
  */
 
-var projects = require('../config/projects');
+var projectsConfig = require('../config/projects');
+//console.log(JSON.stringify(projectsConfig));
 
 exports.index = function(req, res){
   res.render('index', 
   { 
 	  title: 'talldan.com',
-	  projects: projects,
-	  numOfProjects: projects.length
+	  projects: projectsConfig
   });
 };
