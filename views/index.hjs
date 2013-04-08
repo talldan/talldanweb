@@ -68,6 +68,14 @@
 						</aside>
 					{{/type.definitionList}}
 
+					{{#type.stringList}}
+						<ul class='{{ classNames }}'>
+							{{#list}}
+							<li>{{ . }}</li>
+							{{/list}}
+						</ul>
+					{{/type.stringList}}
+
 				{{/content}}
 			</div>
 			{{/rows}}

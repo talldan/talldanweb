@@ -75,9 +75,11 @@ module.exports = [
 					text: "Some of the features I've worked on for this project are:"
 				}, 
 				{
-					type: {list: true},
-					classNames: 'slot-6-7',
-					text: ""
+					type: {stringList: true},
+					classNames: 'slot-6-7-8-9',
+					list: [
+						''
+					]
 				}
 			]
 		}
