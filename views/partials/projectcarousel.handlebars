@@ -1,0 +1,20 @@
+<div id='projectcarousel' class='scrollarea horizontal'>
+	<ul>
+		{{#projects}}
+		<li class='scroll-item'>
+			<img src="/images/{{mainImage}}" />
+		</li>
+		{{/projects}}
+	</ul>
+</div>
+<div id='projectcarousel-scrollbar' class='scrollbar horizontal'>
+	<div class='handle'></div>
+</div>
+{{#projects}}
+<article>
+	{{#summary}}
+		{{>article}}
+	{{/summary}}
+	<div class="clearfix"></div>
+</article>
+{{/projects}}

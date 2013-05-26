@@ -1,0 +1,38 @@
+{{#type.h1}}
+	<h1 class='{{ classNames }}'>{{ text }}</h1>
+{{/type.h1}}
+
+{{#type.h2}}
+	<h2 class='{{ classNames }}'>{{ text }}</h2>
+{{/type.h2}}
+
+{{#type.h3}}
+	<h3 class='{{ classNames }}'>{{ text }}</h3>
+{{/type.h3}}
+
+{{#type.paragraph}}
+	<p class='{{ classNames }}'>{{ text }}</p>
+{{/type.paragraph}}
+
+{{#type.image}}
+	 <img class='{{ classNames }}' src='images/{{ src }}' alt='{{ description }}' title='{{ description }}' />
+{{/type.image}}
+
+{{#type.definitionList}}
+	<aside class='{{ classNames }}'>
+		<dl>
+			{{#list}}
+			<dt>{{ term }}</dt>
+			<dd>{{ definition }}</dd>
+			{{/list}}
+		</dl>
+	</aside>
+{{/type.definitionList}}
+
+{{#type.stringList}}
+	<ul class='{{ classNames }}'>
+		{{#list}}
+		<li>{{ . }}</li>
+		{{/list}}
+	</ul>
+{{/type.stringList}}

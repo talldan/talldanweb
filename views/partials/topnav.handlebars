@@ -1,0 +1,17 @@
+<nav>
+	<ul>
+		{{#navigation}}
+		<li>
+		
+			{{^isSelected}}
+				<a href="{{link}}">{{text}}</a>
+			{{/isSelected}}
+			
+			{{#isSelected}}
+			<span>{{text}}</span>
+			{{/isSelected}}
+			
+		</li>
+		{{/navigation}}
+	</ul>
+</nav>
