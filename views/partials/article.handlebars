@@ -18,6 +18,10 @@
 	 <img class='{{ classNames }}' src='images/{{ src }}' alt='{{ description }}' title='{{ description }}' />
 {{/type.image}}
 
+{{#type.link}}
+	<a class='{{ classNames }}' href='{{ address }}' >{{ text }}</a>
+{{/type.link}}
+
 {{#type.definitionList}}
 	<aside class='{{ classNames }}'>
 		<dl>

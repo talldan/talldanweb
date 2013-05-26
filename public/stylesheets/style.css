@@ -12,6 +12,16 @@ body {
   margin: 0;
   font-family: 'Cabin', sans-serif;
 }
+a {
+  color: #dddddd;
+}
+a:visitied {
+  color: #dddddd;
+}
+a:hover,
+a:visited:hover {
+  color: #ff9900;
+}
 #tdMain {
   min-height: 100%;
   margin-bottom: -85px;
@@ -51,7 +61,7 @@ body > footer p {
   line-height: 2.3em;
   font-size: 1em;
   font-family: 'Cabin', sans-serif;
-  color: #DDD;
+  color: #dddddd;
   border-top: 5px #ff9900 solid;
 }
 #tdMain > nav ul {
@@ -64,12 +74,12 @@ body > footer p {
   padding: 0 28px;
 }
 #tdMain > nav a {
-  color: #DDD;
+  color: #dddddd;
   text-decoration: none;
   padding: 0 0 0.4em 0;
 }
 #tdMain > nav a:visited {
-  color: #DDD;
+  color: #dddddd;
 }
 #tdMain > nav a:hover,
 #tdMain > nav a:visited:hover {
@@ -81,7 +91,7 @@ body > footer p {
 }
 article {
   margin: 0 15%;
-  color: #eee;
+  color: #dddddd;
 }
 article h1 {
   font-size: 2.5em;
@@ -114,6 +124,14 @@ article dl dt {
 article dl dd {
   color: #222;
   margin: 0 0 0.5em 0;
+}
+article img.left {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+article img.right {
+  float: right;
+  margin: 1em 0 1em 1em;
 }
 .scrollarea {
   margin: 2em 0 0;
@@ -182,4 +200,7 @@ article dl dd {
 .scrollbar .handle:hover,
 .scrollbar .handle.dragged {
   background: #3399cc;
+}
+img.hollowface.left {
+  margin-top: 0;
 }
