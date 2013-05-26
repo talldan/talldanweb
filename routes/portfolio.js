@@ -1,14 +1,14 @@
 module.exports = function(req, res){
 	var renderContext = require('../config/portfolio');
 	renderContext.partials = {
-		mainstyles: 'partials\\mainstyles',
-		mainjavascripts: 'partials\\mainjavascripts',
-		topnav: 'partials\\topnav',
-		mainheader: 'partials\\header',
-		footer: 'partials\\footer',
-		article: 'partials\\article',
-		carouselmarkup: 'partials\\carouselmarkup',
-		carouselscripts: 'partials\\carouselscripts'
+		mainstyles: '../views/partials/mainstyles',
+		mainjavascripts: '../views/partials/mainjavascripts',
+		topnav: '../views/partials/topnav',
+		mainheader: '../views/partials//header',
+		footer: '../views/partials/footer',
+		article: '../views/partials/article',
+		carouselmarkup: '../views/partials/carouselmarkup',
+		carouselscripts: '../views/partials/carouselscripts'
 	};
 	renderContext.navigation = [
 		{

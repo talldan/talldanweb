@@ -32,11 +32,11 @@ module.exports = function(req, res){
 		]
 	};
 	renderContext.partials = {
-		mainstyles: 'partials\\mainstyles',
-		topnav: 'partials\\topnav',
-		mainheader: 'partials\\header',
-		footer: 'partials\\footer',
-		article: 'partials\\article'
+		mainstyles: '../views/partials/mainstyles',
+		topnav: '../views/partials/topnav',
+		mainheader: '../views/partials/header',
+		footer: '../views/partials/footer',
+		article: '../views/partials/article'
 	};
 	renderContext.navigation = [
 		{

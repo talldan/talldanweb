@@ -1,16 +1,20 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "talldandotcom",
+  "version": "0.0.1-7",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "3.0.5",
     "less-middleware": "*",
-	"underscore":"*",
-	"async":"*",
-	"handlebars":"*",
-	"consolidate":"*"
-  }
+    "underscore": "*",
+    "async": "*",
+    "handlebars": "*",
+    "consolidate": "*"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "subdomain": "talldan"
 }

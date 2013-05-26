@@ -36,13 +36,8 @@ module.exports = function(req, res){
 			{
 				type: {paragraph: true},
 				text: "So I've been lucky enough to work for the last three years in web development. "
-					+ "For one year at a startup in Cambridge, developing applications for museum"
-					+ "visitor, and for the last two years at a new games studio working on an ambitious social game"
-					+ "I feel that JavaScript has become my strongest language. I've learnt quite a "
-					+ "few different backend technologies, and have come to appreciate approaches like "
-					+ "templating, MV(C|VM) frameworks, semantic markup, css preprocessors, and much more. "
-					+ "I've found a domain where I can marry my technical and creative sides to create "
-					+ "wonderful looking user interfaces. "
+					+ "For one year at a startup in Cambridge, developing applications for museum "
+					+ "visitors, and for the last two years at a new games studio working on an ambitious social game."
 			},
 			{
 				type: {paragraph: true},
@@ -55,11 +50,11 @@ module.exports = function(req, res){
 		]
 	};
 	renderContext.partials = {
-		mainstyles: 'partials\\mainstyles',
-		topnav: 'partials\\topnav',
-		mainheader: 'partials\\header',
-		footer: 'partials\\footer',
-		article: 'partials\\article'
+		mainstyles: '../views/partials/mainstyles',
+		topnav: '../views/partials/topnav',
+		mainheader: '../views/partials/header',
+		footer: '../views/partials/footer',
+		article: '../views/partials/article'
 	};
 	renderContext.navigation = [
 		{
