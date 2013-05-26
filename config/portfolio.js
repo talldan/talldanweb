@@ -6,7 +6,7 @@ module.exports = {
 			project: "I Am Playr",
 			company: "We R Interactive",
 			mainImage: "playr/main.jpg",
-			summary: [
+			content: [
 				{
 					type: {definitionList: true},
 					classNames: 'left',
@@ -29,7 +29,7 @@ module.exports = {
 						}, 
 						{
 							term: 'Additional Technology',
-							definition: 'Knockout JS, JQuery, Canvas2D'
+							definition: 'Knockout JS, JQuery, Canvas2D, Git, SVN'
 						}
 					]
 				}, 
@@ -40,7 +40,7 @@ module.exports = {
 				{
 					type: {paragraph: true},
 					text: "I Am Playr is the BAFTA nominated social game where players "
-						+ "live the life of a footballer. I've worked as a developer "
+						+ "experience the life of a footballer. I've worked as a developer "
 						+ "on the Playr project since August 2011, working on both front "
 						+ "and back-end code."
 
@@ -50,12 +50,88 @@ module.exports = {
 		{
 			project: "ViziQuest",
 			company: "Deep Visuals",
-			mainImage: "vizi/main.jpg"
+			mainImage: "vizi/main.jpg",
+			content: [
+				{
+					type: {definitionList: true},
+					classNames: 'left',
+					list: [
+						{
+							term: 'Company',
+							definition: 'Deep Visuals'
+						}, 
+						{
+							term: 'Role',
+							definition: 'Web Developer'
+						}, 
+						{
+							term: 'Dates',
+							definition: 'September 2010-July 2011'
+						}, 
+						{
+							term: 'Core Technology',
+							definition: 'HTML, JavaScript, CSS, C#, .Net, IIS, SQL Server, jQuery'
+						}, 
+						{
+							term: 'Additional Technology',
+							definition: 'WCF, Modernizr, Azure, Team Foundation Server'
+						}
+					]
+				}, 
+				{
+					type: {h1: true},
+					text: 'ViziQuest'
+				},
+				{
+					type: {paragraph: true},
+					text: "ViziQuest is an interactive application for deep browsing of large "
+						+ "collections. As the user browses, the system builds up knowledge of user preferences "
+						+ "and displays appropriate matching content. I joined Deep Visuals as a web developer "
+						+ "and was tasked with porting their existing Silverlight application to the web."
+
+				}
+			]
 		},
 		{
 			project: "Splats",
 			company: "NPR3 / Dare To Be Digital",
-			mainImage: "splats/main.jpg"
+			mainImage: "splats/main.jpg",
+			content: [
+				{
+					type: {definitionList: true},
+					classNames: 'left',
+					list: [
+						{
+							term: 'Company',
+							definition: 'Dare To Be Digital / NPR3'
+						}, 
+						{
+							term: 'Role',
+							definition: 'Game Developer / Team Leader'
+						}, 
+						{
+							term: 'Dates',
+							definition: 'June 2009-August 2009'
+						}, 
+						{
+							term: 'Core Technology',
+							definition: 'C#, XNA, .Net, JigLibX'
+						}, 
+						{
+							term: 'Additional Technology',
+							definition: 'Garageband, Maya, XACT, HLSL, Hansoft'
+						}
+					]
+				}, 
+				{
+					type: {h1: true},
+					text: 'Splats!'
+				},
+				{
+					type: {paragraph: true},
+					text: "Dare to be Digital is a leading videogame competition for students. "
+				}
+			]
 		}
 	]
 };

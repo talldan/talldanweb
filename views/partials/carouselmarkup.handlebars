@@ -1,0 +1,24 @@
+<div id='carousel'>
+	<div class='selectarea horizontal'>
+		<ul>
+			{{#projects}}
+			<li class='scroll-item'>
+				<img src="/images/{{mainImage}}" />
+			</li>
+			{{/projects}}
+		</ul>
+	</div>
+	<div class='selectbar horizontal'>
+		<div class='handle'></div>
+	</div>
+	<div class='selectcontent'>
+		{{#projects}}
+		<article>
+			{{#content}}
+				{{>article}}
+			{{/content}}
+			<div class="clearfix"></div>
+		</article>
+		{{/projects}}
+	</div>
+</div>

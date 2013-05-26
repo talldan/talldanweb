@@ -7,28 +7,29 @@ module.exports = function(req, res){
 		mainheader: 'partials\\header',
 		footer: 'partials\\footer',
 		article: 'partials\\article',
-		projectcarousel: 'partials\\projectcarousel'
+		carouselmarkup: 'partials\\carouselmarkup',
+		carouselscripts: 'partials\\carouselscripts'
 	};
 	renderContext.navigation = [
 		{
 			isSelected: false,
 			text: 'Home',
-			link: '\\'
+			link: '/'
 		},
 		{
 			isSelected: true,
 			text: 'Portfolio',
-			link: '\\portfolio\\'
+			link: '/portfolio/'
 		},
 		{
 			isSelected: false,
 			text: 'Curriculum Vitae',
-			link: '\\cv\\'
+			link: '/cv/'
 		},
 		{
 			isSelected: false,
 			text: 'Contact Me',
-			link: '\\contact\\'
+			link: '/contact/'
 		}
 	];
 	res.render('portfolio', renderContext);

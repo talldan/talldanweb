@@ -27,7 +27,7 @@ module.exports = function(req, res){
 			{
 				type: {link: true},
 				text: "Daniel Richards on LinkedIn",
-				address: 'http://www.linkedin.com/profile/view?id=48321361'
+				address: 'http://lnkd.in/VrMeHG'
 			}
 		]
 	};

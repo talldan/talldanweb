@@ -14,6 +14,7 @@ body {
 }
 a {
   color: #dddddd;
+  outline: none;
 }
 a:visitied {
   color: #dddddd;
@@ -133,12 +134,24 @@ article img.right {
   float: right;
   margin: 1em 0 1em 1em;
 }
-.scrollarea {
+#carousel {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out 0.3s;
+  -moz-transition: opacity 0.3s ease-in-out 0.3s;
+  -o-transition: opacity 0.3s ease-in-out 0.3s;
+  -ms-transition: opacity 0.3s ease-in-out 0.3s;
+  -k-transition: opacity 0.3s ease-in-out 0.3s;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+#carousel.ready {
+  opacity: 1;
+}
+#carousel .selectarea {
   margin: 2em 0 0;
   height: 366px;
   overflow: hidden;
 }
-.scrollarea ul {
+#carousel .selectarea ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -146,7 +159,7 @@ article img.right {
   /*width: 3000px;*/
 
 }
-.scrollarea ul li {
+#carousel .selectarea ul li {
   float: left;
   width: 650px;
   height: 366px;
@@ -161,32 +174,32 @@ article img.right {
   -k-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-.scrollarea ul li.active {
+#carousel .selectarea ul li.active {
   opacity: 1;
 }
-.scrollarea ul li img {
+#carousel .selectarea ul li img {
   width: 100%;
   height: auto;
 }
-.scrollbar {
+#carousel .selectbar {
   margin: 1em 30% 2.5em;
   cursor: pointer;
   background: #444;
   padding: 0 1%;
 }
-.scrollbar:hover {
+#carousel .selectbar:hover {
   /*background: #555;*/
 
 }
-.scrollbar.horizontal {
+#carousel .selectbar.horizontal {
   height: 12px;
 }
-.scrollbar.horizontal .handle {
+#carousel .selectbar.horizontal .handle {
   position: relative;
   top: -3px;
   height: 18px;
 }
-.scrollbar .handle {
+#carousel .selectbar .handle {
   cursor: pointer;
   background: #297aa3;
   width: 33%;
@@ -197,9 +210,38 @@ article img.right {
   -k-border-radius: 2px;
   border-radius: 2px;
 }
-.scrollbar .handle:hover,
-.scrollbar .handle.dragged {
+#carousel .selectbar .handle:hover,
+#carousel .selectbar .handle.dragged {
   background: #3399cc;
+}
+#carousel .selectcontent {
+  position: relative;
+}
+#carousel .selectcontent article {
+  display: none;
+  /*		position: absolute;
+		top: 0;
+		left: 0;*/
+
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -k-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+#carousel .selectcontent article.shown {
+  display: block;
+}
+#carousel .selectcontent article.active {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in-out 0.4s;
+  -moz-transition: opacity 0.4s ease-in-out 0.4s;
+  -o-transition: opacity 0.4s ease-in-out 0.4s;
+  -ms-transition: opacity 0.4s ease-in-out 0.4s;
+  -k-transition: opacity 0.4s ease-in-out 0.4s;
+  transition: opacity 0.4s ease-in-out 0.4s;
 }
 img.hollowface.left {
   margin-top: 0;
