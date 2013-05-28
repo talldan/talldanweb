@@ -7,14 +7,20 @@
   },
   "dependencies": {
     "express": "3.0.5",
-    "less-middleware": "*",
-    "underscore": "*",
-    "async": "*",
-    "handlebars": "*",
-    "consolidate": "*"
+    "less-middleware": "0.1.11",
+    "underscore": "1.4.4",
+    "async": "0.2.9",
+    "handlebars": "1.0.11",
+    "consolidate": "0.9.1"
   },
   "engines": {
     "node": "0.8.x"
   },
-  "subdomain": "talldan"
+  "subdomain": "talldan",
+  "domains": [
+	  "talldan.com",
+	  "www.talldan.com",
+	  "talldan.co.uk",
+	  "www.talldan.co.uk"
+  ]
 }
