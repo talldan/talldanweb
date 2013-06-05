@@ -59,7 +59,7 @@ module.exports = {
 					type: {paragraph: true},
 					text: "Working on I Am Playr has huge challenges and rewards. I've gained exposure to working a large JavaScript codebase, "
 						+ "where I've had to become comfortable refactoring large aspects of the code. The game has a large audience "
-						+ "{1.9 million Monthly Active Users, at the time of writing), so my work has to be efficient and bug-free. The game is "
+						+ "(1.9 million Monthly Active Users, at the time of writing), so my work has to be efficient and bug-free. The game is "
 						+ "also fully internationalised, and localised into nine different languages, and as the primary front-end developer I've "
 						+ "had to develop a toolkit for dealing with the associated styling issues that multi-language support brings."
 					
