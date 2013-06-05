@@ -1,4 +1,5 @@
-.clearfix {
+.clearfix,
+.clear {
   clear: both;
 }
 html,
@@ -98,10 +99,28 @@ article h1 {
   font-size: 2.5em;
   margin: 0.5em 0;
 }
+article h2 {
+  font-size: 1.5em;
+  margin: 1em 0 0.6em;
+}
+article ul.string-list {
+  list-style-position: inside;
+  line-height: 1.7em;
+}
+article ul.string-list.two-columns li {
+  width: 45%;
+  margin: 0.5em 5% 0.5em 0;
+  float: left;
+}
 article p {
   margin: 1.2em 0;
   font-size: 1.0em;
   line-height: 1.7em;
+  overflow: hidden;
+}
+article small {
+  font-size: 0.95em;
+  font-style: italic;
 }
 article aside {
   font-size: 0.9em;
@@ -126,13 +145,30 @@ article dl dd {
   color: #222;
   margin: 0 0 0.5em 0;
 }
-article img.left {
+article img.left,
+article iframe.videoembed.left {
   float: left;
   margin: 1em 1em 1em 0;
 }
-article img.right {
+article img.right,
+article iframe.videoembed.right {
   float: right;
   margin: 1em 0 1em 1em;
+}
+article a.try-button {
+  float: right;
+  background: #3399cc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -k-border-radius: 8px;
+  border-radius: 8px;
+  padding: 1em 2em;
+  margin: 1em 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
 }
 #carousel {
   opacity: 0;
@@ -181,23 +217,61 @@ article img.right {
   width: 100%;
   height: auto;
 }
+#carousel nav {
+  margin: 0.8em 15% 2.5em;
+  height: 30px;
+}
+#carousel .selectbutton {
+  float: left;
+  width: 6%;
+  height: 22px;
+  background: #297aa3;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+#carousel .selectbutton.previous {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -k-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#carousel .selectbutton.next {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -k-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#carousel .selectbutton:hover {
+  background: #3399cc;
+}
+#carousel .selectbutton.disabled:hover,
+#carousel .selectbutton.disabled {
+  background: #555;
+}
 #carousel .selectbar {
-  margin: 1em 30% 2.5em;
+  float: left;
   cursor: pointer;
   background: #444;
-  padding: 0 1%;
+  padding: 0 2% 0 1%;
+  width: 85%;
 }
 #carousel .selectbar:hover {
   /*background: #555;*/
 
 }
 #carousel .selectbar.horizontal {
-  height: 12px;
+  height: 22px;
 }
 #carousel .selectbar.horizontal .handle {
   position: relative;
-  top: -3px;
-  height: 18px;
+  top: 4px;
+  height: 14px;
 }
 #carousel .selectbar .handle {
   cursor: pointer;
@@ -218,6 +292,7 @@ article img.right {
   position: relative;
 }
 #carousel .selectcontent article {
+  clear: both;
   display: none;
   /*		position: absolute;
 		top: 0;
@@ -245,4 +320,19 @@ article img.right {
 }
 img.hollowface.left {
   margin-top: 0;
+}
+div.tiled-gadgets {
+  background: url(../images/tiledgadgets.png);
+  width: 100%;
+  height: 90px;
+}
+img.gadget {
+  width: 10%;
+  height: auto;
+}
+img.gadget.left {
+  margin: 0 0 0 12%;
+}
+img.gadget.first.left {
+  margin: 0 0 0 23%;
 }

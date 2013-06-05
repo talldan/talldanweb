@@ -25,11 +25,11 @@ module.exports = {
 						}, 
 						{
 							term: 'Core Technology',
-							definition: 'HTML, JavaScript, CSS, PHP, Apache, Cassandra, Unity (Game Engine)'
+							definition: 'HTML, JavaScript, Less CSS, PHP, Apache, Cassandra, Unity (Game Engine)'
 						}, 
 						{
 							term: 'Additional Technology',
-							definition: 'Knockout JS, JQuery, Canvas2D, Git, SVN'
+							definition: 'Knockout JS, JQuery, Canvas2D, Git, SVN, JIRA'
 						}
 					]
 				}, 
@@ -39,11 +39,66 @@ module.exports = {
 				},
 				{
 					type: {paragraph: true},
-					text: "I Am Playr is the BAFTA nominated social game where players "
-						+ "experience the life of a footballer. I've worked as a developer "
-						+ "on the Playr project since August 2011, working on both front "
-						+ "and back-end code."
-
+					text: "I Am Playr is a BAFTA nominated game, available to play on popular social networking sites like "
+						+ "Facebook and Kongregate. I’ve worked as a developer on ‘Playr’ since August 2011, crafting new "
+						+ "game features as part of a multi-disciplined agile team. "
+				},
+				{
+					type: {paragraph: true},
+					text: "Playr is an ambitious game, and challenging to work on; it incorporates features like a strong "
+						+ "narrative with branching storylines, live action first-person video, 3D gameplay through the unity "
+						+ "game engine, and a business model which brings together microtransactions and strong brand integration. "
+				},
+				{
+					type: {paragraph: true},
+					text: "My role encompasses working on both the front and back-end code to develop new features and "
+						+ "improve existing parts of the game. Along with working on the game I also actively develop  "
+						+ "and improve the tools used by our game designers, testers, and artists."
+				},
+				{
+					type: {paragraph: true},
+					text: "Working on I Am Playr has huge challenges and rewards. I've gained exposure to working a large JavaScript codebase, "
+						+ "where I've had to become comfortable refactoring large aspects of the code. The game has a large audience "
+						+ "{1.9 million Monthly Active Users, at the time of writing), so my work has to be efficient and bug-free. The game is "
+						+ "also fully internationalised, and localised into nine different languages, and as the primary front-end developer I've "
+						+ "had to develop a toolkit for dealing with the associated styling issues that multi-language support brings."
+					
+				},
+				{
+					type: {vimeo: true},
+					videoId: '64216405',
+					classNames: 'right'
+				},
+				{
+					type: {h2: true},
+					text: "Achievements and Responsibilities: "
+				},
+				{
+					type: {stringList: true},
+					classNames: '',
+					list: [
+						"Development of new editor tool for the Game's Designers, built using Knockout JS.",
+						"Introduced the concept of templated HTML 'views' to the game, and developed templating engine.",
+						"Localisation of game into nine different languages, and the conquering of the related styling challenges.",
+						"Working with third-party APIs (Facebook, TrialPay, Paypal, Zendesk, Boku, SupersonicAds), including highly critical code for payments.",
+						"Worked on high-profile brand integration with companies including Nike, Gillette, Red Bull, and Alfa Romeo."
+					]
+				},
+				{
+					type: {link: true},
+					classNames: 'try-button clear',
+					target: '_blank',
+					text: "Play 'I Am Playr' on Facebook",
+					address: 'https://apps.facebook.com/iamplayr/'
+				},
+				{
+					type: {h2: true},
+					classNames: 'clear',
+					text: 'Gallery'
+				},
+				{
+					type: {paragraph: true},
+					text: 'Coming Soon ...'
 				}
 			]
 		},
@@ -84,11 +139,56 @@ module.exports = {
 				},
 				{
 					type: {paragraph: true},
-					text: "ViziQuest is an interactive application for deep browsing of large "
+					text: "Deep Visuals are a Cambridge (UK) based startup providing interactive experiences "
+						+ "that support the browsing of digital archives/collections. Products are delivered "
+						+ "through on-site installations and the web, with the museum and gallery sectors "
+						+ "the company's main clients. At Deep Visuals I worked as a developer "
+						+ "and was tasked with producing a plugin-free web app version of  their existing Silverlight "
+						+ "application 'ViziQuest'."
+				},
+				{
+					type: {paragraph: true},
+					text: "ViziQuest is an interactive application for the deep browsing of large "
 						+ "collections. As the user browses, the system builds up knowledge of user preferences "
-						+ "and displays appropriate matching content. I joined Deep Visuals as a web developer "
-						+ "and was tasked with porting their existing Silverlight application to the web."
-
+						+ "and displays appropriate matching content. I developed the web-version of the ViziQuest "
+						+ "client from the ground up, and also contributed to the back-end, including migrating the "
+						+ "existing deprecated 'ASMX' web service to instead use the Windows Communication Foundation API, "
+						+ "and setting up the application on the Windows Azure cloud platform."
+				},
+				{
+					type: {paragraph: true},
+					text: "The ViziQuest client makes use of a number of HTML5/CSS3 standards. The animation of the images "
+						+ "is performed using CSS3 Transitions where available, with a fallback to jQuery animations. The "
+						+ "application supports viewing images, listening to audio and watching video - the HTML5 standards "
+						+ "are used for the playing of videos and audio, with Flash support on unsupported platforms. "
+				},
+				{
+					type: {h2: true},
+					text: "Achievements and Responsibilities: "
+				},
+				{
+					type: {stringList: true},
+					classNames: 'two-columns',
+					list: [
+						"Development of new web client for the company's ViziQuest product, which was then sold to the Fitzwilliam Museum as a product.",
+						"Porting of back-end to the Windows Azure cloud platform, which required significant re-engineering of some aspects of the application.",
+						"Storyboarding, and artwork for all of the company's products.",
+						"Development of prototypes and supporting tools for other initiatives/ projects."
+					]
+				},
+				{
+					type: {link: true},
+					classNames: 'try-button',
+					target: '_blank',
+					text: 'Try ViziQuest*',
+					address: 'http://www.deepvisuals.com/collections/scottpolar/BAARE_JS.php'
+				},
+				{
+					type: {small: true},
+					classNames: 'clear',
+					text: " * This demonstration shows images from the British Artic Air Route expedition, courtesy of the Scott Polar Museum. "
+						+ "A couple of aspects of the application have been altered since I worked at Deep Visuals - the light blue color used "
+						+ "on the user-interface, and the hover effect on surrounding images to bring them to the top."
 				}
 			]
 		},
@@ -129,7 +229,49 @@ module.exports = {
 				},
 				{
 					type: {paragraph: true},
-					text: "Dare to be Digital is a leading videogame competition for students. "
+					text: "Dare to be Digital is a leading videogame competition for students throughout the world. "
+						+ "Teams of 5 students develop a game prototype from scratch, and go through the process of "
+						+ "building a project plan, pitching the game, development of the game, and finally the presentation "
+						+ "of the game at a special event called 'Dare Protoplay' as part of the Edinburgh Interactive Festival. "
+						+ "At Dare Protoplay, a panel of judges decide on the winner of the competition, with the top three games "
+						+ "being given the opportunity to win the prestigious BAFTA 'Ones to Watch' award."
+				},
+				{
+					type: {paragraph: true},
+					text: "I formed a team with four other students from my University (The University of Westminster) during the "
+						+ "second year of our course. We developed the idea for a cooperative puzzle-platform game called 'Splats!' "
+						+ "and were successful in (nervously) pitching the game to a panel of games-industry experts/bosses, and thus "
+						+ "reached the final of the competition. "
+				},
+				{
+					type: {paragraph: true},
+					text: "The finals took place over the summer of 2009. All of the teams were relocated to Dundee for ten weeks of "
+						+ "furious (but fun) game development. "
+				},
+				{
+					type: {paragraph: true},
+					text: "My role in the team was that of Team Leader and Programmer, so I had to balance project management with "
+						+ "my day-to-day programming tasks. "
+				},
+				{
+					type: {youtube: true},
+					videoId: 'SfyIuDnseyk',
+					classNames: 'right'
+				},
+				{
+					type: {h2: true},
+					text: "Achievements and Responsibilities: "
+				},
+				{
+					type: {stringList: true},
+					list: [
+						"Integration of physics engine (JigLibX).",
+						"Incorporation of animation library.",
+						"Shader integration and programming.",
+						"Music creation (using Garageband).",
+						"Audio programming.",
+						"General gameplay programming."
+					]
 				}
 			]
 		}

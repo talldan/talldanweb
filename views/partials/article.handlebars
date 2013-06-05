@@ -14,12 +14,20 @@
 	<p class='{{ classNames }}'>{{ text }}</p>
 {{/type.paragraph}}
 
+{{#type.small}}
+	<p class='{{ classNames }}'><small>{{ text }}</small></p>
+{{/type.small}}
+
+{{#type.divider}}
+	<div class="{{ classNames}}">{{ text }}</div>
+{{/type.divider}}
+
 {{#type.image}}
 	 <img class='{{ classNames }}' src='images/{{ src }}' alt='{{ description }}' title='{{ description }}' />
 {{/type.image}}
 
 {{#type.link}}
-	<a class='{{ classNames }}' href='{{ address }}' >{{ text }}</a>
+	<a class='{{ classNames }}' target="{{ target }}" href='{{ address }}' >{{ text }}</a>
 {{/type.link}}
 
 {{#type.definitionList}}
@@ -34,9 +42,19 @@
 {{/type.definitionList}}
 
 {{#type.stringList}}
-	<ul class='{{ classNames }}'>
+	<ul class='string-list {{ classNames }}'>
 		{{#list}}
 		<li>{{ . }}</li>
 		{{/list}}
 	</ul>
 {{/type.stringList}}
+
+{{#type.youtube}}
+	<iframe class="videoembed {{ classNames}}" width="560" height="315" src="http://www.youtube.com/embed/{{ videoId}}" frameborder="0" allowfullscreen>
+	</iframe>
+{{/type.youtube}}
+
+{{#type.vimeo}}
+	<iframe class="videoembed {{classNames}}" src="http://player.vimeo.com/video/{{ videoId }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+	</iframe> 
+{{/type.vimeo}}

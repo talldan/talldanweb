@@ -49,7 +49,7 @@
 	border-radius:@params;
 }
 
-.clearfix {
+.clearfix, .clear {
 	clear: both;
 }
 
@@ -173,10 +173,33 @@ article {
 		margin: 0.5em 0;
 	}
 	
+	h2 {
+		font-size: 1.5em;
+		margin: 1em 0 0.6em;
+	}
+	
+	ul.string-list {
+		list-style-position: inside;
+		line-height: 1.7em;
+		&.two-columns {
+			li {
+				width: 45%;
+				margin: 0.5em 5% 0.5em 0;
+				float: left;
+			}
+		}
+	}
+	
 	p {
 		margin: 1.2em 0;
 		font-size: 1.0em;
 		line-height: 1.7em;
+		overflow: hidden;
+	}
+	
+	small {
+		font-size: 0.95em;
+		font-style: italic;
 	}
 	
 	aside {
@@ -208,7 +231,7 @@ article {
 		}
 	}
 	
-	img {
+	img, iframe.videoembed {
 		&.left {
 			float: left;
 			margin: 1em 1em 1em 0;
@@ -217,6 +240,17 @@ article {
 			float: right;
 			margin: 1em 0 1em 1em;
 		}
+	}
+	
+	a.try-button {
+		float: right;
+		background: @tdBlue;
+		.BorderRadius(8px);
+		padding: 1em 2em;
+		margin: 1em 0;
+		font-weight: bold;
+		font-size: 1.5em;
+		font-style: italic;
 	}
 }
 
@@ -265,24 +299,56 @@ article {
 		}
 	}
 
-	.selectbar {
+	nav {
+		margin: 0.8em @GutterWidth 2.5em;
+		height: 30px;
+	}
+	
+	.selectbutton {
+		float: left;
+		width: 6%;
+		height: 22px;
+		background: darken(@tdBlue, 10%);
+		cursor: pointer;
+		font-size: 16px;
+		text-align: center;
+		line-height: 20px;
 		
-		margin: 1em @GutterWidth*2 2.5em;
+		@buttonbBorderRadius: 4px;
+		&.previous {
+			.BorderRadius(@buttonbBorderRadius 0 0 @buttonbBorderRadius);
+		}
+		&.next {
+			.BorderRadius(0 @buttonbBorderRadius @buttonbBorderRadius 0);
+		}
+		
+		&:hover {
+			background: @tdBlue;
+		}
+		
+		&.disabled:hover, &.disabled {
+			background: #555;
+		}
+	}
+	
+	.selectbar {
+		float: left;
 		cursor: pointer;
 		background: #444;
-		padding: 0 1%;
+		padding: 0 2% 0 1%;
+		width: 85%;
 
 		&:hover {
 			/*background: #555;*/
 		}
 
 		&.horizontal {
-			height: 12px;
+			height: 22px;
 
 			.handle {
 				position: relative;
-				top: -3px;
-				height: 18px;
+				top: 4px;
+				height: 14px;
 			}
 		}
 
@@ -303,7 +369,7 @@ article {
 	}
 	
 	.selectcontent article {
-		
+		clear: both;
 		display: none;
 /*		position: absolute;
 		top: 0;
@@ -325,4 +391,22 @@ article {
 
 img.hollowface.left {
 	margin-top: 0;
+}
+
+div.tiled-gadgets {
+	background: url(../images/tiledgadgets.png);
+	width: 100%;
+	height: 90px;
+}
+
+img.gadget {
+	width: 10%;
+	height: auto;
+	&.left {
+		margin: 0 0 0 12%;
+	}
+	
+	&.first.left {
+		margin: 0 0 0 23%;
+	}
 }

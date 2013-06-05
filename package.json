@@ -1,6 +1,6 @@
 {
   "name": "talldandotcom",
-  "version": "0.0.1-7",
+  "version": "0.0.1-8",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -18,9 +18,9 @@
   },
   "subdomain": "talldan",
   "domains": [
-	  "talldan.com",
-	  "www.talldan.com",
-	  "talldan.co.uk",
-	  "www.talldan.co.uk"
+    "talldan.com",
+    "www.talldan.com",
+    "talldan.co.uk",
+    "www.talldan.co.uk"
   ]
 }

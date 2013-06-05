@@ -26,6 +26,22 @@ module.exports = function(req, res){
 					+ "I want to work on ambitious projects that take advantage of the fantastic technology that's out there."
 			},
 			{
+				type: {image: true},
+				src: 'computer.png',
+				classNames: 'first left gadget'
+			},
+			{
+				type: {image: true},
+				src: 'tablet.png',
+				classNames: 'left gadget'
+			},
+			{
+				type: {image: true},
+				src: 'gamepad.png',
+				classNames: 'left gadget'
+			},
+			{
+				classNames: 'clear',
 				type: {paragraph: true},
 				text: "Since my degree I've become fascinated by the web. This inherently connected "
 					+ "platform is going somewhere new and exciting. It could be great for games "
