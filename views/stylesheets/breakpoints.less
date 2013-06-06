@@ -152,8 +152,11 @@ article {
 	#tdMain > nav {
 
 		li {
-			display: inline;
-			padding: 0 0.6em;
+			display: list-item;
+			font-size: 0.9em;
+			padding: 0;
+			width: 50%;
+			float: left;
 		}
 	}
 	
@@ -180,7 +183,7 @@ article {
 		@DoubleGutterWidth: @GutterWidth * 2;
 		aside, aside.left, aside.right {
 			float: none;
-			width: 100% - @DoubleGutterWidth;
+			width: 100%;
 			margin: 1em 0;
 		}
 		
@@ -192,6 +195,19 @@ article {
 			width: auto;
 			margin: 0;
 			float: none;
+		}
+	}
+	
+	img.gadget {
+		
+		width: 22%;
+		height: auto;
+		&.left {
+			margin: 0 0 0 12%;
+		}
+
+		&.first.left {
+			margin: 0 0 0 5%;
 		}
 	}
 	
