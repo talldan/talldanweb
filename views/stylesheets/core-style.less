@@ -1,53 +1,13 @@
-// colours
+@import "prefix-helpers.less";
+
 @tdTranGrey: rgba(10, 10, 10, 0.7);
 @tdGrey: #333333;
 @tdOrange: #FF9900;
 @tdBlue: #3399CC;
 @tdOffWhite: #ddd;
 @tdNodeGrey: #33342d;
-@GutterWidth: 15%;
 @FooterHeight: 40px;
 @FooterMargin: 45px;
-
-.Transform(@params)
-{
-	-webkit-transform: @params;
-	-moz-transform: @params;
-	-o-transform: @params;
-	-ms-transform: @params;
-	-k-transform: @params;
-	transform: @params;
-}
-
-.Transition(@params)
-{
-	-webkit-transition: @params;
-	-moz-transition: @params;
-	-o-transition: @params;
-	-ms-transition: @params;
-	-k-transition: @params;
-	transition: @params;
-}
-
-.BoxShadow(@params)
-{
-	-webkit-box-shadow: @params;
-	-moz-box-shadow: @params;
-	-o-box-shadow: @params;
-	-ms-box-shadow: @params;
-	-k-box-shadow: @params;
-	box-shadow: @params;
-}
-
-.BorderRadius(@params)
-{
-	-webkit-border-radius:@params;
-	-moz-border-radius:@params;
-	-o-border-radius:@params;
-	-ms-border-radius:@params;
-	-k-border-radius:@params;
-	border-radius:@params;
-}
 
 .clearfix, .clear {
 	clear: both;
@@ -92,13 +52,8 @@ a {
 
 #tdMain > header {
 
-	margin: 1.8em @GutterWidth 4.2em;
-	text-align: right;
-
 	h1 {
 		color: @tdOrange;
-		font-size: 4em;
-		line-height: 1.5em;
 		font-family: 'Lobster';
 		text-shadow: 3px 3px 2px rgba(10, 10, 10, 0.6);
 		border-bottom: 2px dotted #DDD;
@@ -119,10 +74,6 @@ body > footer {
 	color: #222;
 	height: @FooterHeight;
 	overflow: hidden;
-	
-	p {
-		padding: 1em 0 1em @GutterWidth;
-	}
 }
 
 #tdMain > nav {
@@ -141,7 +92,7 @@ body > footer {
 	
 	li {
 		display: inline;
-		padding: 0 28px;
+		white-space: nowrap;
 	}
 	
 	a {
@@ -165,29 +116,12 @@ body > footer {
 }
 
 article {
-	margin: 0 @GutterWidth;
+	
 	color: @tdOffWhite;
-	
-	h1 {
-		font-size: 2.5em;
-		margin: 0.5em 0;
-	}
-	
-	h2 {
-		font-size: 1.5em;
-		margin: 1em 0 0.6em;
-	}
 	
 	ul.string-list {
 		list-style-position: inside;
 		line-height: 1.7em;
-		&.two-columns {
-			li {
-				width: 45%;
-				margin: 0.5em 5% 0.5em 0;
-				float: left;
-			}
-		}
 	}
 	
 	p {
@@ -281,8 +215,6 @@ article {
 		ul li {
 		
 			float: left;
-			width: 650px;
-			height: 366px;
 			padding: 0;
 			margin: 0 0;
 			cursor: pointer;
@@ -300,7 +232,6 @@ article {
 	}
 
 	nav {
-		margin: 0.8em @GutterWidth 2.5em;
 		height: 30px;
 	}
 	

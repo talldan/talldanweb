@@ -1,0 +1,215 @@
+// default
+@GutterWidth: 15%;
+
+#tdMain > header {
+	
+	text-align: right;
+	margin: 1.8em @GutterWidth 4.2em;
+	
+	h1 {
+		font-size: 4em;
+		line-height: 1.5em;
+	}
+}
+
+#tdMain > nav {
+	
+	li {
+		display: inline;
+		padding: 0 3em;
+	}
+}
+
+body > footer p {
+	padding: 1em 0 1em @GutterWidth;
+}
+
+article {
+	
+	margin: 0 @GutterWidth;
+	
+	h1 {
+		font-size: 2.5em;
+		margin: 0.5em 0;
+		line-height: 2em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+		margin: 1em 0 0.6em;
+		line-height: 1.5em;
+	}
+	
+	ul.string-list.two-columns li {
+		width: 45%;
+		margin: 0.5em 5% 0.5em 0;
+		float: left;
+	}
+}
+
+#carousel {
+	
+	@CarouselHeight: 366px;
+	
+	nav {
+		margin: 0.8em @GutterWidth 2.5em;
+	}
+	
+	.selectarea {
+		height: @CarouselHeight;
+	}
+	
+	.selectarea ul li {
+		width: 650px;
+		height: @CarouselHeight;
+	}
+}
+
+
+
+// small desktop (netbook, perchance)
+@media (min-width: 600px) and (max-width: 1024px) {
+	
+	@GutterWidth: 10%;
+	
+	#tdMain > header {
+		
+		text-align: right;
+		margin: 1.8em @GutterWidth 4.2em;
+		
+			h1 {
+				font-size: 3em;
+				line-height: 1.5em;
+			}
+	}
+	
+	#tdMain > nav {
+
+		li {
+			display: inline;
+			padding: 0 1.4em;
+		}
+	}
+	
+	body > footer p {
+		padding: 1em 0 1em @GutterWidth;
+	}
+	
+	article {
+		
+		margin: 0 @GutterWidth;
+		
+		h1 {
+			font-size: 2em;
+			margin: 0.5em 0;
+			line-height: 1.6em;
+		}
+
+		h2 {
+			font-size: 1.3em;
+			margin: 1em 0 0.6em;
+			line-height: 1.4em;
+		}
+	}
+	
+	#carousel {
+	
+		@CarouselHeight: 315px;
+		
+		nav {
+			margin: 0.8em @GutterWidth 2.5em;
+		}
+		
+		.selectarea {
+			height: @CarouselHeight;
+		}
+		
+		.selectarea ul li {
+			width: 560px;
+			height: @CarouselHeight;
+		}
+	}
+}
+
+
+
+// mobile-ish
+@media (max-width: 600px) {
+	
+	@GutterWidth: 5%;
+	
+	#tdMain > header {
+		
+		text-align: center;
+		margin: 1.8em @GutterWidth 4.2em;
+		
+		h1 {
+			font-size: 2.4em;
+			line-height: 1.5em;
+		}
+	}
+	
+	#tdMain > nav {
+
+		li {
+			display: inline;
+			padding: 0 0.6em;
+		}
+	}
+	
+	body > footer p {
+		padding: 1em 0 1em @GutterWidth;
+	}
+	
+	article {
+		
+		margin: 0 @GutterWidth;
+		
+		h1 {
+			font-size: 1.5em;
+			margin: 0.5em 0;
+			line-height: 1.3em;
+		}
+
+		h2 {
+			font-size: 1.1em;
+			margin: 1em 0 0.6em;
+			line-height: 1.1em;
+		}
+		
+		@DoubleGutterWidth: @GutterWidth * 2;
+		aside, aside.left, aside.right {
+			float: none;
+			width: 100% - @DoubleGutterWidth;
+			margin: 1em 0;
+		}
+		
+		iframe.videoembed {
+			display: none;
+		}
+		
+		ul.string-list.two-columns li {
+			width: auto;
+			margin: 0;
+			float: none;
+		}
+	}
+	
+	#carousel {
+	
+		@CarouselHeight: 190px;
+	
+		nav {
+			margin: 0.8em @GutterWidth 2.5em;
+		}
+		
+		.selectarea {
+			height: @CarouselHeight;
+		}
+		
+		.selectarea ul li {
+			width: 338px;
+			height: @CarouselHeight;
+		}
+	}
+}

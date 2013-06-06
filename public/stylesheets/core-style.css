@@ -1,0 +1,312 @@
+.clearfix,
+.clear {
+  clear: both;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  background: #33342d;
+}
+body {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+}
+a {
+  color: #dddddd;
+  outline: none;
+}
+a:visitied {
+  color: #dddddd;
+}
+a:hover,
+a:visited:hover {
+  color: #ff9900;
+}
+#tdMain {
+  min-height: 100%;
+  margin-bottom: -85px;
+}
+#tdMain div.footer-spacer {
+  height: 85px;
+}
+#tdMain > header h1 {
+  color: #ff9900;
+  font-family: 'Lobster';
+  text-shadow: 3px 3px 2px rgba(10, 10, 10, 0.6);
+  border-bottom: 2px dotted #DDD;
+}
+#tdMain > header h1 em {
+  color: #3399cc;
+  font-style: normal;
+}
+body > footer {
+  width: 100%;
+  margin: 45px 0 0 0;
+  background: #ff9900;
+  font-size: 0.9em;
+  color: #222;
+  height: 40px;
+  overflow: hidden;
+}
+#tdMain > nav {
+  line-height: 2.3em;
+  font-size: 1em;
+  font-family: 'Cabin', sans-serif;
+  color: #dddddd;
+  border-top: 5px #ff9900 solid;
+}
+#tdMain > nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#tdMain > nav li {
+  display: inline;
+  white-space: nowrap;
+}
+#tdMain > nav a {
+  color: #dddddd;
+  text-decoration: none;
+  padding: 0 0 0.4em 0;
+}
+#tdMain > nav a:visited {
+  color: #dddddd;
+}
+#tdMain > nav a:hover,
+#tdMain > nav a:visited:hover {
+  border-bottom: #ff9900 0.3em solid;
+}
+#tdMain > nav span {
+  padding: 0 0 0.4em 0;
+  border-bottom: #3399cc 0.3em solid;
+}
+article {
+  color: #dddddd;
+}
+article ul.string-list {
+  list-style-position: inside;
+  line-height: 1.7em;
+}
+article p {
+  margin: 1.2em 0;
+  font-size: 1.0em;
+  line-height: 1.7em;
+  overflow: hidden;
+}
+article small {
+  font-size: 0.95em;
+  font-style: italic;
+}
+article aside {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  padding: 1.5em 1.5em 1em 1.5em;
+  background: #3399cc;
+  overflow: auto;
+  width: 33%;
+}
+article aside.left {
+  float: left;
+  margin: 0 2em 0 0;
+}
+article aside.right {
+  float: right;
+  margin: 0 0 0 2em;
+}
+article dl dt {
+  font-weight: bold;
+}
+article dl dd {
+  color: #222;
+  margin: 0 0 0.5em 0;
+}
+article img.left,
+article iframe.videoembed.left {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+article img.right,
+article iframe.videoembed.right {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+article a.try-button {
+  float: right;
+  background: #3399cc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -k-border-radius: 8px;
+  border-radius: 8px;
+  padding: 1em 2em;
+  margin: 1em 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+}
+#carousel {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out 0.3s;
+  -moz-transition: opacity 0.3s ease-in-out 0.3s;
+  -o-transition: opacity 0.3s ease-in-out 0.3s;
+  -ms-transition: opacity 0.3s ease-in-out 0.3s;
+  -k-transition: opacity 0.3s ease-in-out 0.3s;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+#carousel.ready {
+  opacity: 1;
+}
+#carousel .selectarea {
+  margin: 2em 0 0;
+  height: 366px;
+  overflow: hidden;
+}
+#carousel .selectarea ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /*width: 3000px;*/
+
+}
+#carousel .selectarea ul li {
+  float: left;
+  padding: 0;
+  margin: 0 0;
+  cursor: pointer;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -k-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+#carousel .selectarea ul li.active {
+  opacity: 1;
+}
+#carousel .selectarea ul li img {
+  width: 100%;
+  height: auto;
+}
+#carousel nav {
+  height: 30px;
+}
+#carousel .selectbutton {
+  float: left;
+  width: 6%;
+  height: 22px;
+  background: #297aa3;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+#carousel .selectbutton.previous {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -k-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#carousel .selectbutton.next {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -k-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#carousel .selectbutton:hover {
+  background: #3399cc;
+}
+#carousel .selectbutton.disabled:hover,
+#carousel .selectbutton.disabled {
+  background: #555;
+}
+#carousel .selectbar {
+  float: left;
+  cursor: pointer;
+  background: #444;
+  padding: 0 2% 0 1%;
+  width: 85%;
+}
+#carousel .selectbar:hover {
+  /*background: #555;*/
+
+}
+#carousel .selectbar.horizontal {
+  height: 22px;
+}
+#carousel .selectbar.horizontal .handle {
+  position: relative;
+  top: 4px;
+  height: 14px;
+}
+#carousel .selectbar .handle {
+  cursor: pointer;
+  background: #297aa3;
+  width: 33%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -k-border-radius: 2px;
+  border-radius: 2px;
+}
+#carousel .selectbar .handle:hover,
+#carousel .selectbar .handle.dragged {
+  background: #3399cc;
+}
+#carousel .selectcontent {
+  position: relative;
+}
+#carousel .selectcontent article {
+  clear: both;
+  display: none;
+  /*		position: absolute;
+		top: 0;
+		left: 0;*/
+
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -k-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+#carousel .selectcontent article.shown {
+  display: block;
+}
+#carousel .selectcontent article.active {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in-out 0.4s;
+  -moz-transition: opacity 0.4s ease-in-out 0.4s;
+  -o-transition: opacity 0.4s ease-in-out 0.4s;
+  -ms-transition: opacity 0.4s ease-in-out 0.4s;
+  -k-transition: opacity 0.4s ease-in-out 0.4s;
+  transition: opacity 0.4s ease-in-out 0.4s;
+}
+img.hollowface.left {
+  margin-top: 0;
+}
+div.tiled-gadgets {
+  background: url(../images/tiledgadgets.png);
+  width: 100%;
+  height: 90px;
+}
+img.gadget {
+  width: 10%;
+  height: auto;
+}
+img.gadget.left {
+  margin: 0 0 0 12%;
+}
+img.gadget.first.left {
+  margin: 0 0 0 23%;
+}

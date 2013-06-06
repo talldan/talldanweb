@@ -1,0 +1,138 @@
+#tdMain > header {
+  text-align: right;
+  margin: 1.8em 15% 4.2em;
+}
+#tdMain > header h1 {
+  font-size: 4em;
+  line-height: 1.5em;
+}
+#tdMain > nav li {
+  display: inline;
+  padding: 0 3em;
+}
+body > footer p {
+  padding: 1em 0 1em 15%;
+}
+article {
+  margin: 0 15%;
+}
+article h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+  line-height: 2em;
+}
+article h2 {
+  font-size: 1.5em;
+  margin: 1em 0 0.6em;
+  line-height: 1.5em;
+}
+article ul.string-list.two-columns li {
+  width: 45%;
+  margin: 0.5em 5% 0.5em 0;
+  float: left;
+}
+#carousel nav {
+  margin: 0.8em 15% 2.5em;
+}
+#carousel .selectarea {
+  height: 366px;
+}
+#carousel .selectarea ul li {
+  width: 650px;
+  height: 366px;
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  #tdMain > header {
+    text-align: right;
+    margin: 1.8em 10% 4.2em;
+  }
+  #tdMain > header h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+  }
+  #tdMain > nav li {
+    display: inline;
+    padding: 0 1.4em;
+  }
+  body > footer p {
+    padding: 1em 0 1em 10%;
+  }
+  article {
+    margin: 0 10%;
+  }
+  article h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    line-height: 1.6em;
+  }
+  article h2 {
+    font-size: 1.3em;
+    margin: 1em 0 0.6em;
+    line-height: 1.4em;
+  }
+  #carousel nav {
+    margin: 0.8em 10% 2.5em;
+  }
+  #carousel .selectarea {
+    height: 315px;
+  }
+  #carousel .selectarea ul li {
+    width: 560px;
+    height: 315px;
+  }
+}
+@media (max-width: 600px) {
+  #tdMain > header {
+    text-align: center;
+    margin: 1.8em 5% 4.2em;
+  }
+  #tdMain > header h1 {
+    font-size: 2.4em;
+    line-height: 1.5em;
+  }
+  #tdMain > nav li {
+    display: inline;
+    padding: 0 0.6em;
+  }
+  body > footer p {
+    padding: 1em 0 1em 5%;
+  }
+  article {
+    margin: 0 5%;
+  }
+  article h1 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    line-height: 1.3em;
+  }
+  article h2 {
+    font-size: 1.1em;
+    margin: 1em 0 0.6em;
+    line-height: 1.1em;
+  }
+  article aside,
+  article aside.left,
+  article aside.right {
+    float: none;
+    width: 90%;
+    margin: 1em 0;
+  }
+  article iframe.videoembed {
+    display: none;
+  }
+  article ul.string-list.two-columns li {
+    width: auto;
+    margin: 0;
+    float: none;
+  }
+  #carousel nav {
+    margin: 0.8em 5% 2.5em;
+  }
+  #carousel .selectarea {
+    height: 190px;
+  }
+  #carousel .selectarea ul li {
+    width: 338px;
+    height: 190px;
+  }
+}
