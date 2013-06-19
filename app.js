@@ -13,15 +13,15 @@ var routesConfig = {
 	},
 	portfolio: {
 		route: require('./routes/portfolio'),
-		path: '/portfolio/'
+		path: '/portfolio'
 	},
 	cv: {
 		route: require('./routes/cv'),
-		path: '/cv/'
+		path: '/cv'
 	},
 	contact: {
 		route: require('./routes/contact'),
-		path: '/contact/'
+		path: '/contact'
 	}
 };
 

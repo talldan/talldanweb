@@ -128,6 +128,16 @@ article ul.string-list.two-columns li {
     margin: 0;
     float: none;
   }
+  img.gadget {
+    width: 22%;
+    height: auto;
+  }
+  img.gadget.left {
+    margin: 0 0 0 12%;
+  }
+  img.gadget.first.left {
+    margin: 0 0 0 5%;
+  }
   #carousel nav {
     margin: 0.8em 5% 2.5em;
   }
