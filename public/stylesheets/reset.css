@@ -1,4 +1,5 @@
-/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */html,
+/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */
+html,
 body,
 div,
 span,
@@ -112,12 +113,14 @@ a {
   vertical-align: baseline;
   background: transparent;
 }
-/* change colours to suit your needs */ins {
+/* change colours to suit your needs */
+ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
-/* change colours to suit your needs */mark {
+/* change colours to suit your needs */
+mark {
   background-color: #ff9;
   color: #000;
   font-style: italic;
@@ -135,7 +138,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* change border colour to suit your needs */hr {
+/* change border colour to suit your needs */
+hr {
   display: block;
   height: 1px;
   border: 0;

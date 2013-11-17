@@ -1,4 +1,6 @@
-.clearfix,
+.clearfix {
+  clear: both;
+}
 .clear {
   clear: both;
 }
@@ -173,7 +175,6 @@ article a.try-button {
   padding: 0;
   height: 100%;
   /*width: 3000px;*/
-
 }
 #carousel .selectarea ul li {
   float: left;
@@ -240,7 +241,6 @@ article a.try-button {
 }
 #carousel .selectbar:hover {
   /*background: #555;*/
-
 }
 #carousel .selectbar.horizontal {
   height: 22px;
@@ -274,7 +274,6 @@ article a.try-button {
   /*		position: absolute;
 		top: 0;
 		left: 0;*/
-
   opacity: 0;
   -webkit-transition: opacity 0.4s ease-in-out;
   -moz-transition: opacity 0.4s ease-in-out;
