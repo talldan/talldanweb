@@ -17,7 +17,7 @@ module.exports = {
 						}, 
 						{
 							term: 'Role',
-							definition: 'Game Developer'
+							definition: 'Lead Game Developer'
 						}, 
 						{
 							term: 'Dates',
@@ -41,7 +41,7 @@ module.exports = {
 					type: {paragraph: true},
 					text: "I Am Playr is a BAFTA nominated game, available to play on popular social networking sites like "
 						+ "Facebook and Kongregate. I’ve worked as a developer on ‘Playr’ since August 2011, crafting new "
-						+ "game features as part of a multi-disciplined agile team. "
+						+ "game features as part of a multi-disciplined agile team. I became lead developer of the project in July 2013. "
 				},
 				{
 					type: {paragraph: true},
@@ -51,18 +51,9 @@ module.exports = {
 				},
 				{
 					type: {paragraph: true},
-					text: "My role encompasses working on both the front and back-end code to develop new features and "
-						+ "improve existing parts of the game. Along with working on the game I also actively develop  "
-						+ "and improve the tools used by our game designers, testers, and artists."
-				},
-				{
-					type: {paragraph: true},
-					text: "Working on I Am Playr has huge challenges and rewards. I've gained exposure to working a large JavaScript codebase, "
-						+ "where I've had to become comfortable refactoring large aspects of the code. The game has a large audience "
-						+ "(1.9 million Monthly Active Users, at the time of writing), so my work has to be efficient and bug-free. The game is "
-						+ "also fully internationalised, and localised into nine different languages, and as the primary front-end developer I've "
-						+ "had to develop a toolkit for dealing with the associated styling issues that multi-language support brings."
-					
+					text: "My role encompasses the full-stack. I'm responsible for the smooth-running of the game, crafting and coding new "
+						+ "features and managing our regular release schedule. In addition, I act as a spokesperson for the project, and have direct "
+						+ "communication with a number of areas of the business, as well as partners and clients."
 				},
 				{
 					type: {vimeo: true},
@@ -77,9 +68,11 @@ module.exports = {
 					type: {stringList: true},
 					classNames: '',
 					list: [
-						"Development of new editor tool for the Game's Designers, built using Knockout JS.",
-						"Introduced the concept of templated HTML 'views' to the game, and developed templating engine.",
-						"Localisation of game into nine different languages, and the conquering of the related styling challenges.",
+						"Designing and implementing new game features.",
+						"Identifying performance issues and bugs using monitoring/profiling tools.",
+						"Use of analytics to identify ways to improve player experience.",
+						"Development of game tools used for artists and designers.",
+						"Internationalisation of the game, and the conquering of the related styling challenges.",
 						"Working with third-party APIs (Facebook, TrialPay, Paypal, Zendesk, Boku, SupersonicAds), including highly critical code for payments.",
 						"Worked on high-profile brand integration with companies including Nike, Gillette, Red Bull, and Alfa Romeo."
 					]
@@ -90,15 +83,6 @@ module.exports = {
 					target: '_blank',
 					text: "Play 'I Am Playr' on Facebook",
 					address: 'https://apps.facebook.com/iamplayr/'
-				},
-				{
-					type: {h2: true},
-					classNames: 'clear',
-					text: 'Gallery'
-				},
-				{
-					type: {paragraph: true},
-					text: 'Coming Soon ...'
 				}
 			]
 		},
