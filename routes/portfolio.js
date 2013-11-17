@@ -1,5 +1,7 @@
 module.exports = function(req, res){
+	
 	var renderContext = require('../config/portfolio');
+	
 	renderContext.partials = {
 		mainstyles: '../views/partials/mainstyles',
 		mainjavascripts: '../views/partials/mainjavascripts',
@@ -10,6 +12,7 @@ module.exports = function(req, res){
 		carouselmarkup: '../views/partials/carouselmarkup',
 		carouselscripts: '../views/partials/carouselscripts'
 	};
+	
 	renderContext.navigation = [
 		{
 			isSelected: false,
@@ -32,5 +35,6 @@ module.exports = function(req, res){
 			link: '/contact/'
 		}
 	];
+	
 	res.render('portfolio', renderContext);
 };

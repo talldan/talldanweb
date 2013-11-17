@@ -13,6 +13,7 @@ module.exports = function(req, res){
 			}
 		]
 	};
+	
 	renderContext.partials = {
 		mainstyles: '../views/partials/mainstyles',
 		topnav: '../views/partials/topnav',
@@ -20,6 +21,7 @@ module.exports = function(req, res){
 		footer: '../views/partials/footer',
 		article: '../views/partials/article'
 	};
+	
 	renderContext.navigation = [
 		{
 			isSelected: false,
@@ -42,5 +44,6 @@ module.exports = function(req, res){
 			link: '/contact/'
 		}
 	];
+	
 	res.render('cv', renderContext);
 };

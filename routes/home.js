@@ -1,4 +1,5 @@
 module.exports = function(req, res){
+	
 	var renderContext = {
 		title: 'talldan.com',
 		headerText: 'Welcome to <em>talldan.com</em>',
@@ -65,6 +66,7 @@ module.exports = function(req, res){
 			}
 		]
 	};
+	
 	renderContext.partials = {
 		mainstyles: '../views/partials/mainstyles',
 		topnav: '../views/partials/topnav',
@@ -72,6 +74,7 @@ module.exports = function(req, res){
 		footer: '../views/partials/footer',
 		article: '../views/partials/article'
 	};
+	
 	renderContext.navigation = [
 		{
 			isSelected: true,
@@ -94,5 +97,6 @@ module.exports = function(req, res){
 			link: '/contact/'
 		}
 	];
+	
 	res.render('home', renderContext);
 };
