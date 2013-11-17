@@ -5,14 +5,6 @@ module.exports = function(req, res){
 		introduction: [
 			{
 				type: {h1: true},
-				text: "Email Me"
-			},
-			{
-				type: {paragraph: true},
-				text: "Coming Soon"
-			},
-			{
-				type: {h1: true},
 				text: "Tweet Me"
 			},
 			{
@@ -40,28 +32,8 @@ module.exports = function(req, res){
 		article: '../views/partials/article'
 	};
 	
-	renderContext.navigation = [
-		{
-			isSelected: false,
-			text: 'Home',
-			link: '/'
-		},
-		{
-			isSelected: false,
-			text: 'Portfolio',
-			link: '/portfolio/'
-		},
-		{
-			isSelected: false,
-			text: 'Curriculum Vitae',
-			link: '/cv/'
-		},
-		{
-			isSelected: true,
-			text: 'Contact Me',
-			link: '/contact/'
-		}
-	];
+	var navigation = require('../navigation');
+	renderContext.navigation = navigation.getNavigationContext('contact');
 	
 	res.render('contact', renderContext);
 };

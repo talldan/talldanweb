@@ -75,28 +75,8 @@ module.exports = function(req, res){
 		article: '../views/partials/article'
 	};
 	
-	renderContext.navigation = [
-		{
-			isSelected: true,
-			text: 'Home',
-			link: '/'
-		},
-		{
-			isSelected: false,
-			text: 'Portfolio',
-			link: '/portfolio/'
-		},
-		{
-			isSelected: false,
-			text: 'Curriculum Vitae',
-			link: '/cv/'
-		},
-		{
-			isSelected: false,
-			text: 'Contact Me',
-			link: '/contact/'
-		}
-	];
+	var navigation = require('../navigation');
+	renderContext.navigation = navigation.getNavigationContext('home');
 	
 	res.render('home', renderContext);
 };

@@ -13,28 +13,8 @@ module.exports = function(req, res){
 		carouselscripts: '../views/partials/carouselscripts'
 	};
 	
-	renderContext.navigation = [
-		{
-			isSelected: false,
-			text: 'Home',
-			link: '/'
-		},
-		{
-			isSelected: true,
-			text: 'Portfolio',
-			link: '/portfolio/'
-		},
-		{
-			isSelected: false,
-			text: 'Curriculum Vitae',
-			link: '/cv/'
-		},
-		{
-			isSelected: false,
-			text: 'Contact Me',
-			link: '/contact/'
-		}
-	];
+	var navigation = require('../navigation');
+	renderContext.navigation = navigation.getNavigationContext('portfolio');
 	
 	res.render('portfolio', renderContext);
 };
