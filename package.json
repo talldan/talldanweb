@@ -1,17 +1,17 @@
 {
   "name": "talldandotcom",
-  "version": "0.0.1-15",
+  "version": "0.0.1-17",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.0.5",
-    "less-middleware": "0.1.11",
-    "underscore": "1.4.4",
-    "async": "0.2.9",
-    "handlebars": "1.0.11",
-    "consolidate": "0.9.1"
+    "express": "*",
+    "less-middleware": "*",
+    "underscore": "*",
+    "async": "*",
+    "handlebars": "*",
+    "consolidate": "*"
   },
   "engines": {
     "node": "0.8.x"
