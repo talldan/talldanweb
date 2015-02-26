@@ -1,0 +1,1134 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nTim",
+				"nTimeSinceLastUpdate"
+			],
+			[
+				"Exter",
+				"ExternalUpdateTimestamp"
+			],
+			[
+				"pause-scree",
+				"pause-screen-button-margin"
+			],
+			[
+				"PauseButt",
+				"PauseButtonComponent"
+			],
+			[
+				"Full",
+				"FullscreenButtonComponent"
+			],
+			[
+				"Skip",
+				"SkipButtonComponent"
+			],
+			[
+				"SongL",
+				"SongLyricsComponent"
+			],
+			[
+				"Var",
+				"VariantGroupComponent"
+			],
+			[
+				"cVideo",
+				"cVideoJsInstance"
+			],
+			[
+				"cVideoJs",
+				"cVideoJsInstance"
+			],
+			[
+				"sidebar",
+				"sidebarArrow"
+			],
+			[
+				"exten",
+				"extendUiState"
+			],
+			[
+				"exte",
+				"extendVideoState"
+			],
+			[
+				"cEv",
+				"cEventParams"
+			],
+			[
+				"Ski",
+				"SkipButton"
+			],
+			[
+				"sRequest",
+				"sRequestUrl"
+			],
+			[
+				"variant-fee",
+				"variant-feedback-width"
+			],
+			[
+				"nEven",
+				"nEventIndex"
+			],
+			[
+				"cAns",
+				"cAnswerResults"
+			],
+			[
+				"nVari",
+				"nVariantAnimationDuration"
+			],
+			[
+				"nAn",
+				"nAnimationTimeOut"
+			],
+			[
+				"nTi",
+				"nTimeToShowVariantAfterAnswer"
+			],
+			[
+				"sCoun",
+				"sCountryCode"
+			],
+			[
+				"GetCollectionTr",
+				"GetCollectionTrackCountForCountry"
+			],
+			[
+				"Answ",
+				"AnswerMissed"
+			],
+			[
+				"bIsAnswe",
+				"bIsAnsweredCorrectly"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"lyric",
+				"lyric-background"
+			],
+			[
+				"sFutu",
+				"sFutureAnswerLyric"
+			],
+			[
+				"sPas",
+				"sPastAnswerLyric"
+			],
+			[
+				"aLy",
+				"aLyricEvents"
+			],
+			[
+				"cCurre",
+				"cCurrentAnswer"
+			],
+			[
+				"nCurr",
+				"nCurrentLyricStartTime"
+			],
+			[
+				"cCu",
+				"cCurrentLyrics"
+			],
+			[
+				"cLyri",
+				"cLyricLineData"
+			],
+			[
+				"cLyric",
+				"cLyricLineData"
+			],
+			[
+				"Varian",
+				"VariantComponent"
+			],
+			[
+				"cLy",
+				"cLyricData"
+			],
+			[
+				"sLyri",
+				"sLyricLine"
+			],
+			[
+				"on",
+				"onAnimationFrame"
+			],
+			[
+				"Game",
+				"GameStore"
+			],
+			[
+				"cEven",
+				"cEventsEmitter"
+			],
+			[
+				"cVid",
+				"cVideoElement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/portfolio.js",
+			"settings":
+			{
+				"buffer_size": 13687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/home.js",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/portfolio.js",
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/partials/article.handlebars",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/portfolio.handlebars",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/partials/portfoliointroduction.handlebars",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Unix",
+				"name": "portfoliointroduction.handlebars"
+			}
+		},
+		{
+			"file": "views/partials/topnav.handlebars",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/home.handlebars",
+			"settings":
+			{
+				"buffer_size": 301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/partials/carouselmarkup.handlebars",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/stylesheets/core-style.less",
+			"settings":
+			{
+				"buffer_size": 4670,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/variant-group.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/game-timer-mixin.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Client/status.txt",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/game.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/game.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/variant.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/pause-button.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/fullscreen-button.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/fullscreen-button.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/pause-overlay.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/videojs-player.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-game.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/game-interface.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/pause-overlay.jsx",
+		"/Users/dan/Documents/Code/lyroke/client-settings/src/js/index.js",
+		"/Users/dan/Documents/Code/lyroke/client-settings/src/js/datastore.js",
+		"/Users/dan/Documents/Code/lyroke/client-settings/package.json",
+		"/Users/dan/Documents/Code/lyroke/lyroke/.gitignore",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-ios/Lyroke/Lyroke.xcodeproj/project.pbxproj",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/pause-button.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/variant-feedback.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/song-lyrics.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/main.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/dimensions.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/animation-container.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/video-player.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/skip-button.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Tools/ClientSettings/CreateClient.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Tools/ClientSettings/UpdateClientSettings.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/UpdateCollectionTrackCounts.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/version.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-ios/Lyroke/Pods/Pods.xcodeproj/project.pbxproj",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Command.class.php",
+		"/Users/dan/Documents/Code/lyroke/ClientSettings/src/js/datastore.js",
+		"/Users/dan/Documents/Code/lyroke/ClientSettings/src/js/server.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/appview.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/data/game-store.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/skip-button.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/song-lyrics.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/lyroke/lyroke-palette.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/sidebar.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/sidebar.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/router.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-collection.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-favourites.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-featured.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-front-page.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-history.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-library.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-new-arrivals.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-not-found.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/view-top-tracks.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/index.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/web/js/ui/pages/challenges.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/server.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/application/sidebar-container.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/gulpfile.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/assets/svg/sidebar-arrow.svg",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/collection-card.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/favourite-button.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/sprites.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/package.json",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/dist/js/app.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/song-lyric-animator.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/variant-animator.jsx",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/js/jsx-components/generic/keyboard-controller-mixin.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Configuration/Spartan/spartan.config",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Track/TrackManager.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Video/LimelightHelper.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Configuration/Servers/installscripts/lyrokeinstall.sh",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Tournaments/TournamentManager.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/tablet/js/pages/game/tournaments.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Page/GetTournaments.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Page/ResolveTournaments.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/common/js/object/trackimages.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/game-interface.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/config/config.json",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/variant-feedback.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/src/less/variant.less",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/RecordTrackPlay.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Database/Cassandra.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/common/js/ui/pages/track/gameframe.js",
+		"/Users/dan/Documents/Code/lyroke/core-spartan/Includes/Datasource/Cassandra.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Video/GetVideoUrl.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Tools/CMS/Publishing/PublishTrack.class.php",
+		"/Users/dan/Documents/Code/lyroke/core-spartan/Libraries/amazon/Aws/S3/S3Client.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Configuration/Vagrant/lyroke-bootstrap.sh",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Client/standalone/index.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/common/js/game/videomanager.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/common/js/video/limelightvideohandler.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/SecureContent/gamemanager.js",
+		"/Users/dan/Documents/Code/lyroke/core-spartan/Includes/Plugin/Session.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Session/SessionHandler.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetCollection.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetFeatured.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetLibrary.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetLyrokeFile.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetNewArrivals.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetTrack.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetTracks.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/AdSupported/GetVideoUrl.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Admin/TestClientSignature.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Tools/CMS/Publishing/PublishCollection.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Tools/CMS/UploadImage.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Build/UploadToCDN.php",
+		"/Users/dan/Documents/Code/lyroke/core-spartan/Includes/Datasource/DatasourceMutator.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Source/Track/FeaturedManager.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Lyroke/Page/GetFeatured.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/MobileClient/config.json",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Server/Commands/Tools/CMS/Publishing/CheckPublicationStatus.class.php",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/pages/pagebase.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/views/popups/pauseframe.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/pages/login.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/manager/basepagemanager.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/tablet/js/manager/pagemanager.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/tablet/js/pages/game/home.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/ui/pages/track.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/ui/pages/track/postgameframe.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/tablet/js/pages/gamepage.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/application.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/web/js/ui/pagemanager.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/views/popups/giftspopup.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/views/popups/tabs/messages.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/MobileClient/Assets/phone/css/gameframe.css",
+		"/Users/dan/Documents/Code/lyroke/lyroke/MobileClient/Assets/tablet/css/gameframe.css",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/common/js/ui/pages/track/whatsnextframe.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/mobile/phone/js/pages/game/trackpreview.js",
+		"/Users/dan/Documents/Code/lyroke/lyroke/Assets/common/js/object/lyroke/lyrokefile.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/dan/Documents/Code/lyroke/lyroke/",
+			"/Users/dan/Documents/Code/lyroke/lyroke-ad-client-web/",
+			"/Users/dan/Documents/Code/lyroke/lyroke/,*.js",
+			"/Users/dan/Documents/Code/lyroke/lyroke/,*.php",
+			"/Users/dan/Documents/Code/lyroke/lyroke/**/*.php",
+			"/Users/dan/Documents/Code/lyroke/lyroke/",
+			"/Users/dan/Documents/Code/lyroke/",
+			"/Users/dan/Documents/Code/lyroke/lyroke/",
+			"/Users/dan/Documents/Code/lyroke/lyroke/Assets,/Users/dan/Documents/Code/lyroke/lyroke/Server",
+			"/Users/dan/Documents/Code/lyroke"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"===",
+			"setState",
+			"SkipIni",
+			"====",
+			"CURRENT_PROJECT_VERSION",
+			"====",
+			"opengraph.png",
+			"'React'",
+			"'React', \"React\"",
+			"GracePeriod",
+			"ttl",
+			"ResolveTournaments",
+			"CreateTournament",
+			"Tournaments",
+			"TOURNAMENT_",
+			".png",
+			"assetsPath",
+			"{\n",
+			"session_set_save_handler",
+			"disablegc",
+			"		\nClientDetails",
+			"power\n\n\nClientDetails",
+			"power",
+			"power\n\n\npower\npower",
+			"power\n\n\npower",
+			"GetCollectionTracks",
+			"m_aIndividualCollectionTracks",
+			"m_aAllCollectionTracks",
+			"CollectionTracks",
+			"GetCollectionTracks",
+			"self::",
+			"ShowPostGame",
+			"m_bCached",
+			"ShowPa",
+			"m_cLoadingView",
+			"m_aAllCollections",
+			"m_cLoadingView",
+			"cLM_LyrokeScoreMultiplierShield",
+			"QueuePopup",
+			"ShowPopup",
+			"GiftsPopup",
+			"new Messages",
+			"Messages.Show",
+			"cLM_MessageList",
+			"m_sEventId",
+			"ShowWhatsNext",
+			"ShowNavi",
+			"m_$Wha",
+			"cWhatsNext",
+			"WhatsNext",
+			"LyrokeGameFrame",
+			"cLM_WhatsNextFrameSuggestions",
+			"cLM_WhatsNextFrameTopBarReplayText",
+			"m_cLyrokeT",
+			"ShowPostGame",
+			"ShowWhatsNext",
+			"PostGameFrame",
+			"validating your",
+			"new LyrokeFile",
+			"GetNumQuestions",
+			"Track",
+			"pagemana",
+			"cLM_LyrokeTrackPreviewPowerupContainer",
+			"View",
+			"Play",
+			"TrackSelectionPopup",
+			"AmazonS3",
+			"danielr",
+			"parent.Footer.append",
+			"cLM_HomeFooterTitleArea",
+			"cLM_PageMainFooter",
+			"BASE",
+			"BASE_PA",
+			"cLM_HeaderProfileArea",
+			"this.KeySignals",
+			"cKeyboardSignal",
+			"KeyboardSignal",
+			"KeyboardController.KeyboardEvents",
+			"key",
+			"isPaused",
+			"timerCap",
+			"externalUpdateTim",
+			"externalTimer",
+			"timerValue",
+			"keepTimerAlive",
+			"\n	var nCharacterSplit = null;\n	var aCharacterArray = null;",
+			"LyricMargin",
+			"StartTime",
+			"        \nStartTime",
+			"        \n",
+			"{}",
+			";\n",
+			"		\n",
+			";\n",
+			"====\n\n\n===",
+			"		\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GetIndividualCollectionTracks",
+			"cKeyMappings",
+			"this.KeySignals",
+			"cKeyboardSignal",
+			"KeyboardSignal",
+			"IsPaused",
+			"TimerCap",
+			"ExternalUpdateTim",
+			"ExternalTimer",
+			"TimerValue",
+			"KeepTimerAlive",
+			"keepTimerAlive"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/portfolio.js",
+					"settings":
+					{
+						"buffer_size": 13687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/home.js",
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/portfolio.js",
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								729,
+								729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/partials/article.handlebars",
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/portfolio.handlebars",
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/partials/portfoliointroduction.handlebars",
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_name": "portfoliointroduction.handlebars",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/partials/topnav.handlebars",
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/home.handlebars",
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/partials/carouselmarkup.handlebars",
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "views/stylesheets/core-style.less",
+					"settings":
+					{
+						"buffer_size": 4670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								755
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.832762766533,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"vers",
+				"lyroke/version.php"
+			],
+			[
+				"comman",
+				"lyroke/Server/Commands/Command.class.php"
+			],
+			[
+				"gulp",
+				"lyroke-ad-client-web/gulpfile.js"
+			],
+			[
+				"spart",
+				"lyroke/Configuration/Spartan/spartan.config"
+			],
+			[
+				"trackma",
+				"lyroke/Server/Source/Track/TrackManager.class.php"
+			],
+			[
+				"tournamen",
+				"lyroke/Server/Source/Tournaments/TournamentManager.class.php"
+			],
+			[
+				"limel",
+				"lyroke/Server/Source/Video/LimelightHelper.class.php"
+			],
+			[
+				"serv",
+				"lyroke-ad-client-web/src/js/server.js"
+			],
+			[
+				"trackman",
+				"lyroke/Server/Source/Track/TrackManager.class.php"
+			],
+			[
+				"sparta",
+				"lyroke/Configuration/Spartan/spartan.config"
+			],
+			[
+				"gamefra",
+				"lyroke/Assets/common/js/ui/pages/track/gameframe.js"
+			],
+			[
+				"cassan",
+				"core-spartan/Includes/Datasource/Cassandra.class.php"
+			],
+			[
+				"recordtra",
+				"lyroke/Server/Commands/Lyroke/AdSupported/RecordTrackPlay.class.php"
+			],
+			[
+				"publish",
+				"lyroke/Server/Commands/Tools/CMS/Publishing/PublishTrack.class.php"
+			],
+			[
+				"videoma",
+				"lyroke/Assets/common/js/game/videomanager.js"
+			],
+			[
+				"version",
+				"lyroke/version.php"
+			],
+			[
+				"getvide",
+				"lyroke/Server/Commands/Lyroke/Video/GetVideoUrl.class.php"
+			],
+			[
+				"limelighth",
+				"lyroke/Server/Source/Video/LimelightHelper.class.php"
+			],
+			[
+				"limeli",
+				"lyroke/Assets/common/js/video/limelightvideohandler.js"
+			],
+			[
+				"spartan",
+				"lyroke/Configuration/Spartan/spartan.config"
+			],
+			[
+				"gamema",
+				"lyroke/Server/Source/SecureContent/gamemanager.js"
+			],
+			[
+				"versio",
+				"lyroke/version.php"
+			],
+			[
+				"publi",
+				"lyroke/Server/Commands/Tools/CMS/Publishing/PublishCollection.class.php"
+			],
+			[
+				"uplo",
+				"lyroke/Build/UploadToCDN.php"
+			],
+			[
+				"config.json",
+				"lyroke/MobileClient/config.json"
+			],
+			[
+				"getfe",
+				"lyroke/Server/Commands/Lyroke/Page/GetFeatured.class.php"
+			],
+			[
+				"getfea",
+				"lyroke/Server/Commands/Lyroke/AdSupported/GetFeatured.class.php"
+			],
+			[
+				"checkpu",
+				"lyroke/Server/Commands/Tools/CMS/Publishing/CheckPublicationStatus.class.php"
+			],
+			[
+				"cassand",
+				"core-spartan/Includes/Datasource/Cassandra.class.php"
+			],
+			[
+				"mutato",
+				"core-spartan/Includes/Datasource/DatasourceMutator.class.php"
+			],
+			[
+				"getfeat",
+				"lyroke/Server/Commands/Lyroke/AdSupported/GetFeatured.class.php"
+			],
+			[
+				"pausefr",
+				"lyroke/Assets/mobile/common/js/views/popups/pauseframe.js"
+			],
+			[
+				"login",
+				"lyroke/Assets/mobile/common/js/pages/login.js"
+			],
+			[
+				"gameman",
+				"lyroke/Server/Source/SecureContent/gamemanager.js"
+			],
+			[
+				"pagebase",
+				"lyroke/Assets/mobile/common/js/pages/pagebase.js"
+			],
+			[
+				"gamepag",
+				"lyroke/Assets/mobile/tablet/js/pages/gamepage.js"
+			],
+			[
+				"loadin",
+				"lyroke/Assets/common/js/utility/loadingbar.js"
+			],
+			[
+				"loadi",
+				"lyroke/Assets/common/js/utility/loadingimage.js"
+			],
+			[
+				"pause",
+				"lyroke/Assets/mobile/common/js/views/popups/pauseframe.js"
+			],
+			[
+				"gamefram.js",
+				"lyroke/Assets/common/js/ui/pages/track/gameframe.js"
+			],
+			[
+				"getpreg",
+				"lyroke/Server/Commands/Lyroke/Game/GetPreGameInfo.class.php"
+			],
+			[
+				"basepa",
+				"lyroke/Assets/mobile/common/js/manager/basepagemanager.js"
+			],
+			[
+				"gamepage.cs",
+				"lyroke/MobileClient/Assets/tablet/css/gamepage.css"
+			],
+			[
+				"gamepa",
+				"lyroke/Assets/mobile/tablet/js/pages/gamepage.js"
+			],
+			[
+				"featuredma",
+				"lyroke/Server/Source/Track/FeaturedManager.class.php"
+			],
+			[
+				"keyboa",
+				"lyroke/Assets/web/js/controls/keyboardcontroller.js"
+			],
+			[
+				"router",
+				"lyroke-ad-client-web/src/js/jsx-components/application/router.jsx"
+			],
+			[
+				"view-op",
+				"lyroke-ad-client-web/src/js/jsx-components/application/view-options.jsx"
+			],
+			[
+				"tournamentmana",
+				"lyroke/Server/Source/Tournaments/TournamentManager.class.php"
+			],
+			[
+				"trackmana",
+				"lyroke/Server/Source/Track/TrackManager.class.php"
+			],
+			[
+				"getvid",
+				"lyroke/Server/Commands/Lyroke/Video/GetVideoUrl.class.php"
+			],
+			[
+				"video",
+				"lyroke/Assets/common/js/game/videomanager.js"
+			],
+			[
+				"command",
+				"core-js/communication/commander.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true
+}

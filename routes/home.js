@@ -12,7 +12,7 @@ module.exports = function(req, res){
 			},
 			{
 				type: {h1: true},
-				text: "Hello, I'm Daniel Richards"
+				text: "Hello, I'm Dan"
 			},
 			{
 				type: {paragraph: true},
@@ -22,9 +22,7 @@ module.exports = function(req, res){
 			{
 				type: {paragraph: true},
 				text: "I've been coding since around 2007, when I decided to opt for a big career change. "
-					+ "I gave up my job, went to University for 3 years to study a degree, and emerged a different person. "
-					+ "I studied game development. I've always had a big love of Video Games. "
-					+ "I want to work on ambitious projects that take advantage of the fantastic technology that's out there."
+					+ "I gave up my job and went to University for 3 years to study a degree in game development. "
 			},
 			{
 				type: {image: true},
@@ -42,27 +40,8 @@ module.exports = function(req, res){
 				classNames: 'left gadget'
 			},
 			{
-				classNames: 'clear',
 				type: {paragraph: true},
-				text: "Since my degree I've become fascinated by the web. This inherently connected "
-					+ "platform is going somewhere new and exciting. It could be great for games "
-					+ "and other highly interactive experiences. There are some great collaborative "
-					+ "and imaginative web applications around, but I don't quite feel that this is the "
-					+ "case with games on the web. (yet)"
-			},
-			{
-				type: {paragraph: true},
-				text: "So I've been lucky enough to work for the last three years in web development. "
-					+ "For one year at a startup in Cambridge, developing applications for museum "
-					+ "visitors, and for the last two years at a new games studio working on an ambitious social game."
-			},
-			{
-				type: {paragraph: true},
-				text: "I feel that JavaScript has become my strongest language. I've learnt quite a "
-					+ "few different backend technologies, and have come to appreciate approaches like "
-					+ "templating, MV(C|VM) frameworks, semantic markup, css preprocessors, and much more. "
-					+ "I've found a domain where I can marry my technical and creative sides to create "
-					+ "wonderful looking user interfaces. "
+				text: "Since my degree, I've found "
 			}
 		]
 	};

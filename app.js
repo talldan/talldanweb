@@ -8,7 +8,7 @@ var _ = require('underscore');
 // routes
 var routesConfig = {
 	home: {
-		route: require('./routes/home'),
+		route: require('./routes/portfolio'),
 		path: '/'
 	},
 	portfolio: {

@@ -10,7 +10,8 @@ module.exports = function(req, res){
 		footer: '../views/partials/footer',
 		article: '../views/partials/article',
 		carouselmarkup: '../views/partials/carouselmarkup',
-		carouselscripts: '../views/partials/carouselscripts'
+		carouselscripts: '../views/partials/carouselscripts',
+		portfoliointroduction: '../views/partials/portfoliointroduction'
 	};
 	
 	var navigation = require('../navigation');

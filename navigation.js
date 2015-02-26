@@ -9,7 +9,7 @@ module.exports = (function(){
 		"portfolio": {
 			name: 'portfolio',
 			text: 'Portfolio',
-			link: '/portfolio/'
+			link: '/'
 		},
 		"cv": {
 			name: 'cv',
@@ -23,7 +23,7 @@ module.exports = (function(){
 		}
 	};
 	
-	var activeNavigationKeys = ['home', 'portfolio', 'contact'];
+	var activeNavigationKeys = ['portfolio', 'contact'];
 	
 	return {
 		getNavigationContext: function(current) {

@@ -1,7 +1,114 @@
 module.exports = {
-	title: 'Portfolio',
-	headerText: 'My <em>portfolio</em>',
+	title: 'talldan.com | portfolio',
+	headerText: 'Welcome to <em>talldan.com</em>',
+	introduction: [
+		{
+			type: {articleHeader: true},
+			classNames: '',
+			text: 'About Me'
+		},
+		{
+			type: {paragraph: true},
+			text: "A coder with experience in full-stack web and game development. I'm experienced with modern client-side technologies"
+				+ " while also having experience in multiple server-side stacks and cloud platforms like AWS."
+		}
+	],
 	projects:[
+		{
+			project: "Lyroke",
+			company: "We R Interactive",
+			mainImage: "lyroke/main.jpg",
+			content: [
+				{
+					type: {definitionList: true},
+					classNames: 'left',
+					list: [
+						{
+							term: 'Company',
+							definition: 'We R Interactive'
+						}, 
+						{
+							term: 'Role',
+							definition: 'Lead Game Developer'
+						}, 
+						{
+							term: 'Dates',
+							definition: 'April 2014-January 2015'
+						}, 
+						{
+							term: 'Core Technology',
+							definition: 'HTML, JavaScript, Less CSS, PHP, AWS (EC2, S3, R53, Cloudfront), Apache, Cassandra, Cordova, iOS, Android'
+						}, 
+						{
+							term: 'Additional Technology',
+							definition: 'React JS, Knockout JS, JQuery, Git, SVN, Jenkins, Testflight, XCode, Google Analytics, Bugsnag'
+						}
+					]
+				}, 
+				{
+					type: {h1: true},
+					text: 'Lyroke'
+				},
+				{
+					type: {paragraph: true},
+					text: "Lyroke is a music game, previously available on iOS, Android and through the web. The game has similarities "
+						+ "to Karaoke (singing optional), but the aim is to correctly choose the missing lyric from three options - with each correct guess "
+						+ "earning the player points."
+				},
+				{
+					type: {paragraph: true},
+					text: "One of the unique challenges of Lyroke is that it's a multi-platform game. The code base is developed "
+						+ "as a web app, with builds for Android and iOS produced using Cordova/Phonegap. Through this, "
+						+ "I've garnered an in-depth understanding of the build and publishing process on both of these mobile platforms."
+				},
+				{
+					type: {paragraph: true},
+					text: "On the server-side, Lyroke is hosted on AWS, which is my first exposure to the platform. The back-end stack is "
+						+ "built on Apache, PHP, with a Cassandra database cluster. We take advantage of automatically scaling our backend "
+						+ "to customer demand using the features that the AWS platform provides."
+				},
+				{
+					type: {paragraph: true},
+					text: "Lyroke was withdrawn from sale as a result of the acquisition of We R Interactive in January, 2015. "
+				},
+				{
+					type: {vimeo: true},
+					videoId: '79885487',
+					classNames: 'right'
+				},
+				{
+					type: {h2: true},
+					text: "Responsibilities: "
+				},
+				{
+					type: {stringList: true},
+					classNames: '',
+					list: [
+						"Managing the game's architecture on both front and back-end.",
+						"Handling deployments to iOS, Android and Web.",
+						"Managing a small team of developers.",
+						"Development of features and bug-fixing.",
+						"Improvement and development of internal tool-chain."
+					]
+				},
+				{
+					type: {h2: true},
+					text: "Achievements: "
+				},
+				{
+					type: {stringList: true},
+					classNames: '',
+					list: [
+						"Developed and oversaw release of new, radically redesigned client for the game.",
+						"Greatly improved dev workflow. Introduced continuous integration, one-click deployment and code reviews.",
+						"Managed migration of all analytics from Upsight to Google Analytics.",
+						"Migrated developers from a mish-mash of Apache dev environments to Vagrant setup closely mirroring live environment.",
+						"Introduced Bugsnag error tracking across server and client - greatly improving productivity in finding and resolving bugs.",
+						"Handled setup and migration of company git repositories to a new Gitlab server."
+					]
+				}
+			]
+		},
 		{
 			project: "I Am Playr",
 			company: "We R Interactive",
@@ -21,15 +128,15 @@ module.exports = {
 						}, 
 						{
 							term: 'Dates',
-							definition: 'August 2011-Present'
+							definition: 'August 2011-April 2014'
 						}, 
 						{
 							term: 'Core Technology',
-							definition: 'HTML, JavaScript, Less CSS, PHP, Apache, Cassandra, Unity (Game Engine)'
+							definition: 'HTML, JavaScript, Less CSS, PHP, Apache, Cassandra, Jenkins'
 						}, 
 						{
 							term: 'Additional Technology',
-							definition: 'Knockout JS, JQuery, Canvas2D, Git, SVN, JIRA'
+							definition: 'Knockout JS, JQuery, Canvas2D, Git, SVN, JIRA, Google Analytics'
 						}
 					]
 				}, 
@@ -51,9 +158,14 @@ module.exports = {
 				},
 				{
 					type: {paragraph: true},
-					text: "My role encompasses the full-stack. I'm responsible for the smooth-running of the game, crafting and coding new "
-						+ "features and managing our regular release schedule. In addition, I act as a spokesperson for the project, and have direct "
-						+ "communication with a number of areas of the business, as well as partners and clients."
+					text: "My role encompassed the full-stack, responsible for the smooth-running of the game, crafting and coding new "
+						+ "features and managing our regular release schedule. In addition, I acted as a spokesperson for the project, and "
+						+ "work together with a number of areas of the business (design, QA, marketing, analytics, business development), "
+						+ "as well as partners and clients."
+				},
+				{
+					type: {paragraph: true},
+					text: "At its peak, I Am Playr enjoyed over 2 million monthly active users, and is still available to play through Facebook."
 				},
 				{
 					type: {vimeo: true},
@@ -61,118 +173,42 @@ module.exports = {
 					classNames: 'right'
 				},
 				{
-					type: {h2: true},
-					text: "Achievements and Responsibilities: "
-				},
-				{
-					type: {stringList: true},
-					classNames: '',
-					list: [
-						"Designing and implementing new game features.",
-						"Identifying performance issues and bugs using monitoring/profiling tools.",
-						"Use of analytics to identify ways to improve player experience.",
-						"Development of game tools used for artists and designers.",
-						"Internationalisation of the game, and the conquering of the related styling challenges.",
-						"Working with third-party APIs (Facebook, TrialPay, Paypal, Zendesk, Boku, SupersonicAds), including highly critical code for payments.",
-						"Worked on high-profile brand integration with companies including Nike, Gillette, Red Bull, and Alfa Romeo."
-					]
-				},
-				{
 					type: {link: true},
 					classNames: 'try-button clear',
 					target: '_blank',
 					text: "Play 'I Am Playr' on Facebook",
 					address: 'https://apps.facebook.com/iamplayr/'
-				}
-			]
-		},
-		{
-			project: "ViziQuest",
-			company: "Deep Visuals",
-			mainImage: "vizi/main.jpg",
-			content: [
-				{
-					type: {definitionList: true},
-					classNames: 'left',
-					list: [
-						{
-							term: 'Company',
-							definition: 'Deep Visuals'
-						}, 
-						{
-							term: 'Role',
-							definition: 'Web Developer'
-						}, 
-						{
-							term: 'Dates',
-							definition: 'September 2010-July 2011'
-						}, 
-						{
-							term: 'Core Technology',
-							definition: 'HTML, JavaScript, CSS, C#, .Net, IIS, SQL Server, jQuery'
-						}, 
-						{
-							term: 'Additional Technology',
-							definition: 'WCF, Modernizr, Azure, Team Foundation Server'
-						}
-					]
-				}, 
-				{
-					type: {h1: true},
-					text: 'ViziQuest'
-				},
-				{
-					type: {paragraph: true},
-					text: "Deep Visuals are a Cambridge (UK) based startup providing interactive experiences "
-						+ "that support the browsing of digital archives/collections. Products are delivered "
-						+ "through on-site installations and the web, with the museum and gallery sectors "
-						+ "the company's main clients. At Deep Visuals I worked as a developer "
-						+ "and was tasked with producing a plugin-free web app version of  their existing Silverlight "
-						+ "application 'ViziQuest'."
-				},
-				{
-					type: {paragraph: true},
-					text: "ViziQuest is an interactive application for the deep browsing of large "
-						+ "collections. As the user browses, the system builds up knowledge of user preferences "
-						+ "and displays appropriate matching content. I developed the web-version of the ViziQuest "
-						+ "client from the ground up, and also contributed to the back-end, including migrating the "
-						+ "existing deprecated 'ASMX' web service to instead use the Windows Communication Foundation API, "
-						+ "and setting up the application on the Windows Azure cloud platform."
-				},
-				{
-					type: {paragraph: true},
-					text: "The ViziQuest client makes use of a number of HTML5/CSS3 standards. The animation of the images "
-						+ "is performed using CSS3 Transitions where available, with a fallback to jQuery animations. The "
-						+ "application supports viewing images, listening to audio and watching video - the HTML5 standards "
-						+ "are used for the playing of videos and audio, with Flash support on unsupported platforms. "
 				},
 				{
 					type: {h2: true},
-					text: "Achievements and Responsibilities: "
+					text: "Responsibilities: "
 				},
 				{
 					type: {stringList: true},
-					classNames: 'two-columns',
+					classNames: '',
 					list: [
-						"Development of new web client for the company's ViziQuest product, which was then sold to the Fitzwilliam Museum as a product.",
-						"Porting of back-end to the Windows Azure cloud platform, which required significant re-engineering of some aspects of the application.",
-						"Storyboarding, and artwork for all of the company's products.",
-						"Development of prototypes and supporting tools for other initiatives/ projects."
+						"Managing architecture across the full-stack",
+						"Designing and implementing new game features.",
+						"Identifying performance issues and bugs using monitoring/profiling tools.",
+						"Use of analytics to identify ways to improve player experience.",
+						"Internationalisation of the game, and the conquering of the related styling challenges.",
+						"Working with third-party APIs (Facebook, TrialPay, Paypal, Zendesk, Boku, SupersonicAds), including highly critical code for payments."
 					]
 				},
 				{
-					type: {link: true},
-					classNames: 'try-button',
-					target: '_blank',
-					text: 'Try ViziQuest*',
-					address: 'http://www.deepvisuals.com/collections/scottpolar/BAARE_JS.php'
+					type: {h2: true},
+					text: "Achievements: "
 				},
 				{
-					type: {small: true},
-					classNames: 'clear',
-					text: " * This demonstration shows images from the British Artic Air Route expedition, courtesy of the Scott Polar Museum. "
-						+ "A couple of aspects of the application have been altered since I worked at Deep Visuals - the light blue color used "
-						+ "on the user-interface, and the hover effect on surrounding images to bring them to the top."
+					type: {stringList: true},
+					classNames: '',
+					list: [
+						"Development of several high-profile features for brand partners, including Nike, Gillette, Red Bull and Alfa Romeo.",
+						"Lead on redesigning our internal toolchain, which greatly improved productivity for designers and content producers.",
+						"Internationalisation of the game into 9 languages, and handling the related styling challenges.",
+						"Recommended the use of new technology - notably LESS CSS and HTML templating.",
+						"Took an active role in designing and planning new features."
+					]
 				}
 			]
 		},
@@ -249,6 +285,7 @@ module.exports = {
 				{
 					type: {stringList: true},
 					list: [
+						"Development of game concept.",
 						"Integration of physics engine (JigLibX).",
 						"Incorporation of animation library.",
 						"Shader integration and programming.",
